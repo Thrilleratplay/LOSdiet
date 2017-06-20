@@ -12,26 +12,26 @@ gulp.task('build-html', function() {
   return gulp.src('./src/templates/index.ejs')
              .pipe(ejs({apkData: apkData}, {}, {ext: '.html'}).on('error', console.error))
              .pipe(htmlmin({collapseWhitespace: true}))
-             .pipe(gulp.dest('./dist/'));
+             .pipe(gulp.dest('./docs/'));
 });
 
 // Minify Javascript
 gulp.task('build-js', function() {
   return gulp.src('./src/js/*')
              .pipe(uglify())
-             .pipe(gulp.dest('./dist/js/'));
+             .pipe(gulp.dest('./docs/js/'));
 });
 
 // Minify CSS
 gulp.task('build-css', function() {
   return gulp.src('./src/css/*')
              .pipe(cssnano())
-             .pipe(gulp.dest('./dist/css/'));
+             .pipe(gulp.dest('./docs/css/'));
 });
 
 // Dev web Server
 gulp.task('browser-sync', ['build-html','build-js', 'build-css'] ,function() {
-  browserSync.init({ server: { baseDir: "./dist" } });
+  browserSync.init({ server: { baseDir: "./docs" } });
 });
 
 // Watch and reload server
