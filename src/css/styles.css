@@ -1,3 +1,4 @@
+/* Materialize btn and Pure-drawer toggle - use Lineage green*/
 .btn, .btn-large,
 .pure-toggle-label {
   background-color: #167c80;
@@ -5,17 +6,20 @@
   color: #fff;
 }
 
+/* Pure-drawer toggle - use Lineage green*/
 .pure-toggle-label .pure-toggle-icon,
 .pure-toggle-label .pure-toggle-icon:after,
 .pure-toggle-label .pure-toggle-icon:before {
   background-color: #fff;
 }
 
+/* Materialize checkbox - use Lineage green*/
 [type="checkbox"]:checked+label:before {
   border-right-color: #167c80;
   border-bottom-color: #167c80;
 }
 
+/* Additional styles */
 .titlebar {
   color: #167c80;
   height: 75px;
