@@ -40,3 +40,10 @@
 .collection .collection-item {
   background-color: transparent;
 }
+
+.desc {
+  background-color: #167c80;
+  color: #fff;
+  font-style: italic;
+  font-weight: bold;
+}
