@@ -14,6 +14,23 @@ JSZipUtils.getBinaryContent('./zips/slug.zip', function (err, data) {
   zipData = data;
 });
 
+/**
+ * Disable Make Zip checkbox if no apps are selected
+ */
+var disableMakeZipButton = function () {
+  document.querySelector('input[type=button]').disabled = (document.querySelectorAll('input:checked').length === 0);
+}
+
+// Bind disableMakeZipButton() to checkboxes
+Array.prototype.map.call(document.querySelectorAll('input[type=checkbox]'), function (checkbox) {
+  checkbox.addEventListener('change', disableMakeZipButton);
+});
+
+// initially set Make Zip disabled if need be.
+disableMakeZipButton();
+
+
+
 
 /**
  * Package script into zip to be downloaded
