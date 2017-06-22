@@ -130,7 +130,7 @@
         "packageName": "org.lineageos.jelly"
     },
     "LatinIME": {
-        "description": "Stock Android keyboard. Safe to remove if replaced by another keyboard.",
+        "description": "Stock Android keyboard. Safe to remove if replaced by another keyboard.  WARNING: if your device is encrypted with a password, the default keyboard is needed.",
         "label": "Android Keyboard (AOSP)",
         "packageName": "com.android.inputmethod.latin"
     },
@@ -250,7 +250,7 @@
         "packageName": "com.android.messaging"
     },
     "webview": {
-        "description": "System component powered by Chrome that allows Android apps to display web content. Remove it if you don't need in-app web content.",
+        "description": "System component powered by Chrome that allows Android apps to display web content. Remove it if you don't need in-app web content or use Jelly",
         "label": "Android System WebView",
         "packageName": "com.android.webview"
     }
