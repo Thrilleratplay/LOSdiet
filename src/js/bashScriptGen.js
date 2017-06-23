@@ -1,4 +1,5 @@
 var zipData;
+var savedApks = localStorage.getItem('LOSdiet_apks') || [];
 
 /**
  * Load empty zip file in the background.
@@ -24,13 +25,11 @@ var disableMakeZipButton = function () {
 // Bind disableMakeZipButton() to checkboxes
 Array.prototype.map.call(document.querySelectorAll('input[type=checkbox]'), function (checkbox) {
   checkbox.addEventListener('change', disableMakeZipButton);
+  checkbox.checked = savedApks.indexOf(checkbox.id) > -1;
 });
 
 // initially set Make Zip disabled if need be.
 disableMakeZipButton();
-
-
-
 
 /**
  * Package script into zip to be downloaded
@@ -100,6 +99,7 @@ var itsGoTime = function () {
        .then(function (blob) {
          // Save zip file
          saveAs(blob, ZIP_FILENAME);
+         localStorage.setItem('LOSdiet_apks', apks);
        });
     });
   }
