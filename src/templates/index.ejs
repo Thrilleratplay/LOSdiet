@@ -56,23 +56,23 @@
         <section>
           <article id="apkList">
             <div class="container">
-<% Object.keys(apkData).forEach(function(apk) { %>
+<% apkData.forEach(function(apk) { %>
               <div class="row app-list">
                 <div class="col s12 m6 l4">
-                  <input type="checkbox" id="<%= apk %>" />
-                  <label for="<%= apk %>">
-                    <div class="apk-label truncate"><%= apkData[apk].label %></div>
+                  <input type="checkbox" id="<%= apk.name %>" />
+                  <label for="<%= apk.name %>">
+                    <div class="apk-label truncate"><%= apk.label %></div>
                   </label>
                 </div>
                 <div class="col hide-on-med-and-down l3">
                   <div class="truncate">
-                    <%= apkData[apk].packageName %>
+                    <%= apk.packageName %>
                   </div>
                   <div class="truncate">
-                    <%= apk %>.apk</div>
+                    <%= apk.name %>.apk</div>
                 </div>
                 <div class="col m6 l5">
-                  <%= apkData[apk].description %>
+                  <%= apk.description %>
                 </div>
               </div>
 <% }); %>

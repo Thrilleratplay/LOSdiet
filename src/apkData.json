@@ -1,257 +1,308 @@
-{
-    "AntHalService": {
-        "description": "Service designed for various ANT/ANT+ devices like heart rate monitors, fitness equipment etc.",
-        "label": "ANT HAL Service",
-        "packageName": "com.dsi.ant.server"
-    },
-    "AudioFX": {
-        "description": "Audio equalizer.",
-        "label": "AudioFX",
-        "packageName": "com.cyanogenmod.audiofx"
-    },
-    "BackupRestoreConfirmation": {
-        "description": "UI for the backup confirmation dialog when issuing 'adb backup' command. Remove it if you don't use adb to backup your device.",
-        "label": "Backup/Restore Confirmation",
-        "packageName": "com.android.backupconfirm"
-    },
-    "BasicDreams": {
-        "description": "Customizable screensaver.",
-        "label": "Basic Daydreams",
-        "packageName": "com.android.dreams.basic"
-    },
-    "Bluetooth": {
-        "description": "After removal, Bluetooth won't turn on.",
-        "label": "Bluetooth Share",
-        "packageName": "com.android.bluetooth"
-    },
-    "BluetoothExt": {
-        "description": "Service used for file sharing, handsfree equipment, Bluetooth modem and SIM adapter.",
-        "label": "Bluetooth extensions",
-        "packageName": "org.codeaurora.bluetooth"
-    },
-    "BluetoothMidiService": {
-        "description": "Service used for connecting your device with musical instruments, stage lighting and other time-oriented media via Bluetooth.",
-        "label": "Bluetooth MIDI Service",
-        "packageName": "com.android.bluetoothmidiservice"
-    },
-    "CMUpdater": {
-        "description": "Remove it if you are upgrading through Recovery.",
-        "label": "CM Updater",
-        "packageName": "com.cyanogenmod.updater"
-    },
-    "Calendar": {
-        "description": "Calendar app.",
-        "label": "Calendar",
-        "packageName": "com.android.calendar"
-    },
-    "CalendarProvider": {
-        "description": "Syncs your phone calendar with Google Calendar. Necessary for notifications too.",
-        "label": "Calendar Storage",
-        "packageName": "com.android.providers.calendar"
-    },
-    "CallLogBackup": {
-        "description": "Backup and restore your call logs (history).",
-        "label": "Call Log Backup/Restore",
-        "packageName": "com.android.calllogbackup"
-    },
-    "CaptivePortalLogin": {
-        "description": "A service used for displaying a special web page that is shown before using the Internet normally. Remove this if you don't use public Wi-Fi networks.",
-        "label": "Captive Portal Login",
-        "packageName": "com.android.captiveportallogin"
-    },
-    "CarrierConfig": {
-        "description": "Modifies carrier configuration.",
-        "label": "Carrier Config",
-        "packageName": "com.android.carrierconfig"
-    },
-    "CellBroadcastReceiver": {
-        "description": "Remove this if you don't want to receive alerts for severe and extreme threats to life and property.",
-        "label": "Cell Broadcasts",
-        "packageName": "com.android.cellbroadcastreceiver"
-    },
-    "DeskClock": {
-        "description": "Remove it if you want to use another clock/alarm app.",
-        "label": "Clock",
-        "packageName": "com.android.deskclock"
-    },
-    "Development": {
-        "description": "Tools and tests for developers.",
-        "label": "Dev Tools",
-        "packageName": "com.android.development"
-    },
-    "Eleven": {
-        "description": "Remove it if you want to use another music player.",
-        "label": "Music",
-        "packageName": "com.cyanogenmod.eleven"
-    },
-    "Email": {
-        "description": "Remove it if you don't use a local email server.",
-        "label": "Email",
-        "packageName": "com.android.email"
-    },
-    "ExactCalculator": {
-        "description": "Calculator app.",
-        "label": "Calculator",
-        "packageName": "com.android.calculator2"
-    },
-    "Exchange2": {
-        "description": "Provides sync for Email app.",
-        "label": "Exchange Services",
-        "packageName": "com.android.exchange"
-    },
-    "FMRadio": {
-        "description": "FM Radio app.",
-        "label": "FM Radio",
-        "packageName": "com.android.fmradio"
-    },
-    "FusedLocation": {
-        "description": "Necessary for proper GPS functioning.",
-        "label": "Fused Location",
-        "packageName": "com.android.location.fused"
-    },
-    "Gallery2": {
-        "description": "Remove it if you use another photo gallery.",
-        "label": "Gallery",
-        "packageName": "com.android.gallery3d"
-    },
-    "HTMLViewer": {
-        "description": "Lets you view HTML files on your device.",
-        "label": "HTML Viewer",
-        "packageName": "com.android.htmlviewer"
-    },
-    "InputDevices": {
-        "description": "Default AOSP keyboard layout settings.",
-        "label": "Input Devices",
-        "packageName": "com.android.inputdevices"
-    },
-    "Jelly": {
-        "description": "Jelly Browser",
-        "label": "Browser",
-        "packageName": "org.lineageos.jelly"
-    },
-    "LatinIME": {
-        "description": "Stock Android keyboard. Safe to remove if replaced by another keyboard.  WARNING: if your device is encrypted with a password, the default keyboard is needed.",
-        "label": "Android Keyboard (AOSP)",
-        "packageName": "com.android.inputmethod.latin"
-    },
-    "LiveWallpapers": {
-        "description": "Remove it if you don't use live wallpapers.",
-        "label": "Android Live Wallpapers",
-        "packageName": "com.android.wallpaper"
-    },
-    "LiveWallpapersPicker": {
-        "description": "Remove it if you don't use live wallpapers.",
-        "label": "Live Wallpaper Picker",
-        "packageName": "com.android.wallpaper.livepicker"
-    },
-    "LockClock": {
-        "description": "Clock widget with weather.",
-        "label": "cLock",
-        "packageName": "com.cyanogenmod.lockclock"
-    },
-    "ManagedProvisioning": {
-        "description": "Customizes the profile/device owner provisioning flows with corporate colors and logos.",
-        "label": "Managed Provisioning",
-        "packageName": "com.android.managedprovisioning"
-    },
-    "MmsService": {
-        "description": "Necessary for receiving SMS/MMS. Some messaging apps won't require this service, some will. Create a backup just in case.",
-        "label": "Messaging Service",
-        "packageName": "com.android.mms.service"
-    },
-    "PhotoTable": {
-        "description": "Screensavers with your own pictures.",
-        "label": "Photo Screensavers",
-        "packageName": "com.android.dreams.phototable"
-    },
-    "PicoTts": {
-        "description": "Text to speech engine.",
-        "label": "Pico TTS",
-        "packageName": "com.svox.pico"
-    },
-    "PrintSpooler": {
-        "description": "Interacts with the printer and orders the print jobs in your queue.",
-        "label": "Print Spooler",
-        "packageName": "com.android.printspooler"
-    },
-    "Profiles": {
-        "description": "A trust agent used so that system profiles can better lock/unlock your device when you switch profiles.",
-        "label": "Profiles Trust Provider",
-        "packageName": "com.cyanogenmod.profiles"
-    },
-    "ProxyHandler": {
-        "description": "",
-        "label": "ProxyHandler",
-        "packageName": "com.android.proxyhandler"
-    },
-    "SharedStorageBackup": {
-        "description": "Performs a backup of shared-storage file systems.",
-        "label": "Shared Storage Backup",
-        "packageName": "com.android.sharedstoragebackup"
-    },
-    "Shell": {
-        "description": "Error messages.",
-        "label": "Shell",
-        "packageName": "com.android.shell"
-    },
-    "Snap": {
-        "description": "There are many alternatives in Play Store.",
-        "label": "Camera",
-        "packageName": "org.cyanogenmod.snap"
-    },
-    "SoundRecorder": {
-        "description": "There are many alternatives in Play Store.",
-        "label": "Sound Recorder",
-        "packageName": "com.android.soundrecorder"
-    },
-    "StatementService": {
-        "description": "",
-        "label": "Intent Filter Verification Service",
-        "packageName": "com.android.statementservice"
-    },
-    "Terminal": {
-        "description": "Offers local shell access.",
-        "label": "Terminal",
-        "packageName": "com.android.terminal"
-    },
-    "TimeService": {
-        "description": "",
-        "label": "Time Service",
-        "packageName": "com.qualcomm.timeservice"
-    },
-    "Trebuchet": {
-        "description": "Default launcher.",
-        "label": "Launcher",
-        "packageName": "com.cyanogenmod.trebuchet"
-    },
-    "UserDictionaryProvider": {
-        "description": "Personal dictionary",
-        "label": "User Dictionary",
-        "packageName": "com.android.providers.userdictionary"
-    },
-    "VpnDialogs": {
-        "description": "VPN app.",
-        "label": "Vpn Dialogs",
-        "packageName": "com.android.vpndialogs"
-    },
-    "WAPPushManager": {
-        "description": "Tethering connectivity. Remove it if you don't use tethering/access point mode.",
-        "label": "WAP Push Manager",
-        "packageName": "com.android.smspush"
-    },
-    "WallpaperCropper": {
-        "description": "Wallpaper cropping tool.",
-        "label": "Wallpaper Cropper",
-        "packageName": "com.android.wallpapercropper"
-    },
-    "messaging": {
-        "description": "Make sure you install another messaging app before removing this.",
-        "label": "Messaging",
-        "packageName": "com.android.messaging"
-    },
-    "webview": {
-        "description": "System component powered by Chrome that allows Android apps to display web content. Remove it if you don't need in-app web content or use Jelly",
-        "label": "Android System WebView",
-        "packageName": "com.android.webview"
-    }
-}
+[
+  {
+    "description": "Stock Android keyboard. Safe to remove if replaced by another keyboard.  WARNING: if your device is encrypted with a password, the default keyboard is needed.",
+    "label": "Android Keyboard (AOSP)",
+    "packageName": "com.android.inputmethod.latin",
+    "name": "LatinIME"
+  },
+  {
+    "description": "Remove it if you don't use live wallpapers.",
+    "label": "Android Live Wallpapers",
+    "packageName": "com.android.wallpaper",
+    "name": "LiveWallpapers"
+  },
+  {
+    "description": "System component powered by Chrome that allows Android apps to display web content. Remove it if you don't need in-app web content or use Jelly",
+    "label": "Android System WebView",
+    "packageName": "com.android.webview",
+    "name": "webview"
+  },
+  {
+    "description": "Service designed for various ANT/ANT+ devices like heart rate monitors, fitness equipment etc.",
+    "label": "ANT HAL Service",
+    "packageName": "com.dsi.ant.server",
+    "name": "AntHalService"
+  },
+  {
+    "description": "Audio equalizer.",
+    "label": "AudioFX",
+    "packageName": "com.cyanogenmod.audiofx",
+    "name": "AudioFX"
+  },
+  {
+    "description": "UI for the backup confirmation dialog when issuing 'adb backup' command. Remove it if you don't use adb to backup your device.",
+    "label": "Backup/Restore Confirmation",
+    "packageName": "com.android.backupconfirm",
+    "name": "BackupRestoreConfirmation"
+  },
+  {
+    "description": "Customizable screensaver.",
+    "label": "Basic Daydreams",
+    "packageName": "com.android.dreams.basic",
+    "name": "BasicDreams"
+  },
+  {
+    "description": "Service used for file sharing, handsfree equipment, Bluetooth modem and SIM adapter.",
+    "label": "Bluetooth extensions",
+    "packageName": "org.codeaurora.bluetooth",
+    "name": "BluetoothExt"
+  },
+  {
+    "description": "Service used for connecting your device with musical instruments, stage lighting and other time-oriented media via Bluetooth.",
+    "label": "Bluetooth MIDI Service",
+    "packageName": "com.android.bluetoothmidiservice",
+    "name": "BluetoothMidiService"
+  },
+  {
+    "description": "After removal, Bluetooth won't turn on.",
+    "label": "Bluetooth Share",
+    "packageName": "com.android.bluetooth",
+    "name": "Bluetooth"
+  },
+  {
+    "description": "Jelly Browser",
+    "label": "Browser",
+    "packageName": "org.lineageos.jelly",
+    "name": "Jelly"
+  },
+  {
+    "description": "Calculator app.",
+    "label": "Calculator",
+    "packageName": "com.android.calculator2",
+    "name": "ExactCalculator"
+  },
+  {
+    "description": "Calendar app.",
+    "label": "Calendar",
+    "packageName": "com.android.calendar",
+    "name": "Calendar"
+  },
+  {
+    "description": "Syncs your phone calendar with Google Calendar. Necessary for notifications too.",
+    "label": "Calendar Storage",
+    "packageName": "com.android.providers.calendar",
+    "name": "CalendarProvider"
+  },
+  {
+    "description": "Backup and restore your call logs (history).",
+    "label": "Call Log Backup/Restore",
+    "packageName": "com.android.calllogbackup",
+    "name": "CallLogBackup"
+  },
+  {
+    "description": "There are many alternatives in Play Store.",
+    "label": "Camera",
+    "packageName": "org.cyanogenmod.snap",
+    "name": "Snap"
+  },
+  {
+    "description": "A service used for displaying a special web page that is shown before using the Internet normally. Remove this if you don't use public Wi-Fi networks.",
+    "label": "Captive Portal Login",
+    "packageName": "com.android.captiveportallogin",
+    "name": "CaptivePortalLogin"
+  },
+  {
+    "description": "Modifies carrier configuration.",
+    "label": "Carrier Config",
+    "packageName": "com.android.carrierconfig",
+    "name": "CarrierConfig"
+  },
+  {
+    "description": "Remove this if you don't want to receive alerts for severe and extreme threats to life and property.",
+    "label": "Cell Broadcasts",
+    "packageName": "com.android.cellbroadcastreceiver",
+    "name": "CellBroadcastReceiver"
+  },
+  {
+    "description": "Remove it if you want to use another clock/alarm app.",
+    "label": "Clock",
+    "packageName": "com.android.deskclock",
+    "name": "DeskClock"
+  },
+  {
+    "description": "Clock widget with weather.",
+    "label": "cLock",
+    "packageName": "com.cyanogenmod.lockclock",
+    "name": "LockClock"
+  },
+  {
+    "description": "Remove it if you are upgrading through Recovery.",
+    "label": "CM Updater",
+    "packageName": "com.cyanogenmod.updater",
+    "name": "CMUpdater"
+  },
+  {
+    "description": "Tools and tests for developers.",
+    "label": "Dev Tools",
+    "packageName": "com.android.development",
+    "name": "Development"
+  },
+  {
+    "description": "Remove it if you don't use a local email server.",
+    "label": "Email",
+    "packageName": "com.android.email",
+    "name": "Email"
+  },
+  {
+    "description": "Provides sync for Email app.",
+    "label": "Exchange Services",
+    "packageName": "com.android.exchange",
+    "name": "Exchange2"
+  },
+  {
+    "description": "FM Radio app.",
+    "label": "FM Radio",
+    "packageName": "com.android.fmradio",
+    "name": "FMRadio"
+  },
+  {
+    "description": "Necessary for proper GPS functioning.",
+    "label": "Fused Location",
+    "packageName": "com.android.location.fused",
+    "name": "FusedLocation"
+  },
+  {
+    "description": "Remove it if you use another photo gallery.",
+    "label": "Gallery",
+    "packageName": "com.android.gallery3d",
+    "name": "Gallery2"
+  },
+  {
+    "description": "Lets you view HTML files on your device.",
+    "label": "HTML Viewer",
+    "packageName": "com.android.htmlviewer",
+    "name": "HTMLViewer"
+  },
+  {
+    "description": "Default AOSP keyboard layout settings.",
+    "label": "Input Devices",
+    "packageName": "com.android.inputdevices",
+    "name": "InputDevices"
+  },
+  {
+    "description": "",
+    "label": "Intent Filter Verification Service",
+    "packageName": "com.android.statementservice",
+    "name": "StatementService"
+  },
+  {
+    "description": "Default launcher.",
+    "label": "Launcher",
+    "packageName": "com.cyanogenmod.trebuchet",
+    "name": "Trebuchet"
+  },
+  {
+    "description": "Remove it if you don't use live wallpapers.",
+    "label": "Live Wallpaper Picker",
+    "packageName": "com.android.wallpaper.livepicker",
+    "name": "LiveWallpapersPicker"
+  },
+  {
+    "description": "Customizes the profile/device owner provisioning flows with corporate colors and logos.",
+    "label": "Managed Provisioning",
+    "packageName": "com.android.managedprovisioning",
+    "name": "ManagedProvisioning"
+  },
+  {
+    "description": "Make sure you install another messaging app before removing this.",
+    "label": "Messaging",
+    "packageName": "com.android.messaging",
+    "name": "messaging"
+  },
+  {
+    "description": "Necessary for receiving SMS/MMS. Some messaging apps won't require this service, some will. Create a backup just in case.",
+    "label": "Messaging Service",
+    "packageName": "com.android.mms.service",
+    "name": "MmsService"
+  },
+  {
+    "description": "Remove it if you want to use another music player.",
+    "label": "Music",
+    "packageName": "com.cyanogenmod.eleven",
+    "name": "Eleven"
+  },
+  {
+    "description": "Screensavers with your own pictures.",
+    "label": "Photo Screensavers",
+    "packageName": "com.android.dreams.phototable",
+    "name": "PhotoTable"
+  },
+  {
+    "description": "Text to speech engine.",
+    "label": "Pico TTS",
+    "packageName": "com.svox.pico",
+    "name": "PicoTts"
+  },
+  {
+    "description": "Interacts with the printer and orders the print jobs in your queue.",
+    "label": "Print Spooler",
+    "packageName": "com.android.printspooler",
+    "name": "PrintSpooler"
+  },
+  {
+    "description": "A trust agent used so that system profiles can better lock/unlock your device when you switch profiles.",
+    "label": "Profiles Trust Provider",
+    "packageName": "com.cyanogenmod.profiles",
+    "name": "Profiles"
+  },
+  {
+    "description": "",
+    "label": "ProxyHandler",
+    "packageName": "com.android.proxyhandler",
+    "name": "ProxyHandler"
+  },
+  {
+    "description": "Performs a backup of shared-storage file systems.",
+    "label": "Shared Storage Backup",
+    "packageName": "com.android.sharedstoragebackup",
+    "name": "SharedStorageBackup"
+  },
+  {
+    "description": "Error messages.",
+    "label": "Shell",
+    "packageName": "com.android.shell",
+    "name": "Shell"
+  },
+  {
+    "description": "There are many alternatives in Play Store.",
+    "label": "Sound Recorder",
+    "packageName": "com.android.soundrecorder",
+    "name": "SoundRecorder"
+  },
+  {
+    "description": "Offers local shell access.",
+    "label": "Terminal",
+    "packageName": "com.android.terminal",
+    "name": "Terminal"
+  },
+  {
+    "description": "",
+    "label": "Time Service",
+    "packageName": "com.qualcomm.timeservice",
+    "name": "TimeService"
+  },
+  {
+    "description": "Personal dictionary",
+    "label": "User Dictionary",
+    "packageName": "com.android.providers.userdictionary",
+    "name": "UserDictionaryProvider"
+  },
+  {
+    "description": "VPN app.",
+    "label": "Vpn Dialogs",
+    "packageName": "com.android.vpndialogs",
+    "name": "VpnDialogs"
+  },
+  {
+    "description": "Wallpaper cropping tool.",
+    "label": "Wallpaper Cropper",
+    "packageName": "com.android.wallpapercropper",
+    "name": "WallpaperCropper"
+  },
+  {
+    "description": "Tethering connectivity. Remove it if you don't use tethering/access point mode.",
+    "label": "WAP Push Manager",
+    "packageName": "com.android.smspush",
+    "name": "WAPPushManager"
+  }
+]
