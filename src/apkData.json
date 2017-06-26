@@ -6,12 +6,6 @@
     "name": "LatinIME"
   },
   {
-    "description": "Remove it if you don't use live wallpapers.",
-    "label": "Android Live Wallpapers",
-    "packageName": "com.android.wallpaper",
-    "name": "LiveWallpapers"
-  },
-  {
     "description": "System component powered by Chrome that allows Android apps to display web content. Remove it if you don't need in-app web content or use Jelly",
     "label": "Android System WebView",
     "packageName": "com.android.webview",
