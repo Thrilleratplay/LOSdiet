@@ -1,0 +1,442 @@
+[
+  {
+    "name": "BasicDreams",
+    "packageName": "com.android.dreams.basic"
+  },
+  {
+    "name": "Bluetooth",
+    "packageName": "com.android.bluetooth"
+  },
+  {
+    "name": "BluetoothExt",
+    "packageName": "org.codeaurora.bluetooth"
+  },
+  {
+    "name": "BluetoothMidiService",
+    "packageName": "com.android.bluetoothmidiservice"
+  },
+  {
+    "name": "BookmarkProvider",
+    "packageName": "com.android.bookmarkprovider"
+  },
+  {
+    "name": "Calendar",
+    "packageName": "com.android.calendar"
+  },
+  {
+    "name": "CaptivePortalLogin",
+    "packageName": "com.android.captiveportallogin"
+  },
+  {
+    "name": "CertInstaller",
+    "packageName": "com.android.certinstaller"
+  },
+  {
+    "name": "CtsShimPrebuilt",
+    "packageName": "com.android.cts.ctsshim"
+  },
+  {
+    "name": "DMConfigUpdate",
+    "packageName": "com.verizon.omadm"
+  },
+  {
+    "name": "DeskClock",
+    "packageName": "com.android.deskclock"
+  },
+  {
+    "name": "Development",
+    "packageName": "com.android.development"
+  },
+  {
+    "name": "DownloadProviderUi",
+    "packageName": "com.android.providers.downloads.ui"
+  },
+  {
+    "name": "EasterEgg",
+    "packageName": "com.android.egg"
+  },
+  {
+    "name": "Eleven",
+    "packageName": "com.cyanogenmod.eleven"
+  },
+  {
+    "name": "Email",
+    "packageName": "com.android.email"
+  },
+  {
+    "name": "ExactCalculator",
+    "packageName": "com.android.calculator2"
+  },
+  {
+    "name": "Exchange2",
+    "packageName": "com.android.exchange"
+  },
+  {
+    "name": "ExtShared",
+    "packageName": "android.ext.shared"
+  },
+  {
+    "name": "HTMLViewer",
+    "packageName": "com.android.htmlviewer"
+  },
+  {
+    "name": "HiddenMenu",
+    "packageName": "com.android.sprint.hiddenmenuapp"
+  },
+  {
+    "name": "Jelly",
+    "packageName": "org.lineageos.jelly"
+  },
+  {
+    "name": "KeyChain",
+    "packageName": "com.android.keychain"
+  },
+  {
+    "name": "LatinIME",
+    "packageName": "com.android.inputmethod.latin"
+  },
+  {
+    "name": "LiveWallpapersPicker",
+    "packageName": "com.android.wallpaper.livepicker"
+  },
+  {
+    "name": "LockClock",
+    "packageName": "com.cyanogenmod.lockclock"
+  },
+  {
+    "name": "MotoSignatureApp",
+    "packageName": "com.motorola.motosignature.app"
+  },
+  {
+    "name": "NfcNci",
+    "packageName": "com.android.nfc"
+  },
+  {
+    "name": "PacProcessor",
+    "packageName": "com.android.pacprocessor"
+  },
+  {
+    "name": "PhotoTable",
+    "packageName": "com.android.dreams.phototable"
+  },
+  {
+    "name": "PicoTts",
+    "packageName": "com.svox.pico"
+  },
+  {
+    "name": "PrintRecommendationService",
+    "packageName": "com.android.printservice.recommendation"
+  },
+  {
+    "name": "PrintSpooler",
+    "packageName": "com.android.printspooler"
+  },
+  {
+    "name": "Profiles",
+    "packageName": "org.cyanogenmod.profiles"
+  },
+  {
+    "name": "Stk",
+    "packageName": "com.android.stk"
+  },
+  {
+    "name": "Terminal",
+    "packageName": "com.android.terminal"
+  },
+  {
+    "name": "TimeService",
+    "packageName": "com.qualcomm.timeservice"
+  },
+  {
+    "name": "UserDictionaryProvider",
+    "packageName": "com.android.providers.userdictionary"
+  },
+  {
+    "name": "WAPPushManager",
+    "packageName": "com.android.smspush"
+  },
+  {
+    "name": "WallpaperBackup",
+    "packageName": "com.android.wallpaperbackup"
+  },
+  {
+    "name": "WallpaperPicker",
+    "packageName": "com.android.wallpaperpicker"
+  },
+  {
+    "name": "ims",
+    "packageName": "org.codeaurora.ims"
+  },
+  {
+    "name": "messaging",
+    "packageName": "com.android.messaging"
+  },
+  {
+    "name": "webview",
+    "packageName": "com.android.webview"
+  },
+  {
+    "name": "framework-res.apk",
+    "packageName": "android"
+  },
+  {
+    "name": "org.cyanogenmod.platform-res.apk",
+    "packageName": "cyanogenmod.platform"
+  },
+  {
+    "name": "AudioFX",
+    "packageName": "org.cyanogenmod.audiofx"
+  },
+  {
+    "name": "BackupRestoreConfirmation",
+    "packageName": "com.android.backupconfirm"
+  },
+  {
+    "name": "BlockedNumberProvider",
+    "packageName": "com.android.providers.blockednumber"
+  },
+  {
+    "name": "CMActions",
+    "packageName": "com.cyanogenmod.settings.device"
+  },
+  {
+    "name": "CMAudioService",
+    "packageName": "org.cyanogenmod.cmaudio.service"
+  },
+  {
+    "name": "CMParts",
+    "packageName": "org.cyanogenmod.cmparts"
+  },
+  {
+    "name": "CMSettingsProvider",
+    "packageName": "org.cyanogenmod.cmsettings"
+  },
+  {
+    "name": "CMUpdater",
+    "packageName": "org.lineageos.updater"
+  },
+  {
+    "name": "CNEService",
+    "packageName": "com.quicinc.cne.CNEService"
+  },
+  {
+    "name": "CQATest",
+    "packageName": "com.motorola.motocit"
+  },
+  {
+    "name": "CalendarProvider",
+    "packageName": "com.android.providers.calendar"
+  },
+  {
+    "name": "CallLogBackup",
+    "packageName": "com.android.calllogbackup"
+  },
+  {
+    "name": "CarrierConfig",
+    "packageName": "com.android.carrierconfig"
+  },
+  {
+    "name": "CellBroadcastReceiver",
+    "packageName": "com.android.cellbroadcastreceiver"
+  },
+  {
+    "name": "ConnMO",
+    "packageName": "com.android.sdm.plugins.connmo"
+  },
+  {
+    "name": "Contacts",
+    "packageName": "com.android.contacts"
+  },
+  {
+    "name": "ContactsProvider",
+    "packageName": "com.android.providers.contacts"
+  },
+  {
+    "name": "CtsShimPrivPrebuilt",
+    "packageName": "com.android.cts.priv.ctsshim"
+  },
+  {
+    "name": "CustomTiles",
+    "packageName": "org.lineageos.customtiles"
+  },
+  {
+    "name": "DCMO",
+    "packageName": "com.android.sdm.plugins.dcmo"
+  },
+  {
+    "name": "DMService",
+    "packageName": "com.android.omadm.service"
+  },
+  {
+    "name": "DefaultContainerService",
+    "packageName": "com.android.defcontainer"
+  },
+  {
+    "name": "DiagMon",
+    "packageName": "com.android.sdm.plugins.diagmon"
+  },
+  {
+    "name": "Dialer",
+    "packageName": "com.android.dialer"
+  },
+  {
+    "name": "DocumentsUI",
+    "packageName": "com.android.documentsui"
+  },
+  {
+    "name": "DownloadProvider",
+    "packageName": "com.android.providers.downloads"
+  },
+  {
+    "name": "EmergencyInfo",
+    "packageName": "com.android.emergency"
+  },
+  {
+    "name": "ExtServices",
+    "packageName": "android.ext.services"
+  },
+  {
+    "name": "ExternalStorageProvider",
+    "packageName": "com.android.externalstorage"
+  },
+  {
+    "name": "FusedLocation",
+    "packageName": "com.android.location.fused"
+  },
+  {
+    "name": "GCS",
+    "packageName": "com.google.android.apps.gcs"
+  },
+  {
+    "name": "Gallery2",
+    "packageName": "com.android.gallery3d"
+  },
+  {
+    "name": "InputDevices",
+    "packageName": "com.android.inputdevices"
+  },
+  {
+    "name": "LifetimeData",
+    "packageName": "com.android.sprint.lifetimedata"
+  },
+  {
+    "name": "LineageSetupWizard",
+    "packageName": "com.cyanogenmod.setupwizard"
+  },
+  {
+    "name": "LiveLockScreenService",
+    "packageName": "org.cyanogenmod.livelockscreen.service"
+  },
+  {
+    "name": "ManagedProvisioning",
+    "packageName": "com.android.managedprovisioning"
+  },
+  {
+    "name": "MediaProvider",
+    "packageName": "com.android.providers.media"
+  },
+  {
+    "name": "MmsService",
+    "packageName": "com.android.mms.service"
+  },
+  {
+    "name": "MtpDocumentsProvider",
+    "packageName": "com.android.mtp"
+  },
+  {
+    "name": "OneTimeInitializer",
+    "packageName": "com.android.onetimeinitializer"
+  },
+  {
+    "name": "PackageInstaller",
+    "packageName": "com.android.packageinstaller"
+  },
+  {
+    "name": "ProxyHandler",
+    "packageName": "com.android.proxyhandler"
+  },
+  {
+    "name": "Recorder",
+    "packageName": "org.lineageos.recorder"
+  },
+  {
+    "name": "Settings",
+    "packageName": "com.android.settings"
+  },
+  {
+    "name": "SettingsProvider",
+    "packageName": "com.android.providers.settings"
+  },
+  {
+    "name": "SharedStorageBackup",
+    "packageName": "com.android.sharedstoragebackup"
+  },
+  {
+    "name": "Shell",
+    "packageName": "com.android.shell"
+  },
+  {
+    "name": "Snap",
+    "packageName": "org.cyanogenmod.snap"
+  },
+  {
+    "name": "SprintDM",
+    "packageName": "com.android.sdm.plugins.sprintdm"
+  },
+  {
+    "name": "StatementService",
+    "packageName": "com.android.statementservice"
+  },
+  {
+    "name": "StorageManager",
+    "packageName": "com.android.storagemanager"
+  },
+  {
+    "name": "SystemUI",
+    "packageName": "com.android.systemui"
+  },
+  {
+    "name": "Tag",
+    "packageName": "com.android.apps.tag"
+  },
+  {
+    "name": "TeleService",
+    "packageName": "com.android.phone"
+  },
+  {
+    "name": "Telecom",
+    "packageName": "com.android.server.telecom"
+  },
+  {
+    "name": "TelephonyProvider",
+    "packageName": "com.android.providers.telephony"
+  },
+  {
+    "name": "Trebuchet",
+    "packageName": "com.cyanogenmod.trebuchet"
+  },
+  {
+    "name": "VpnDialogs",
+    "packageName": "com.android.vpndialogs"
+  },
+  {
+    "name": "WallpaperCropper",
+    "packageName": "com.android.wallpapercropper"
+  },
+  {
+    "name": "WeatherManagerService",
+    "packageName": "org.cyanogenmod.weatherservice"
+  },
+  {
+    "name": "WeatherProvider",
+    "packageName": "org.cyanogenmod.weather.provider"
+  },
+  {
+    "name": "atfwd",
+    "packageName": "com.qualcomm.atfwd"
+  },
+  {
+    "name": "qcrilmsgtunnel",
+    "packageName": "com.qualcomm.qcrilmsgtunnel"
+  }
+]

@@ -1,0 +1,1028 @@
+[
+  {
+    "apkName": "AntHalService.apk",
+    "name": "AntHalService",
+    "isGoogleApp": false,
+    "packageName": "com.dsi.ant.server",
+    "label": "ANT HAL Service",
+    "removable": "yes",
+    "description": "Service designed for various ANT/ANT+ devices like heart rate monitors, fitness equipment etc.",
+    "version": "4.0.0"
+  },
+  {
+    "apkName": "AudioFX.apk",
+    "name": "AudioFX",
+    "isGoogleApp": false,
+    "packageName": "com.cyanogenmod.audiofx",
+    "label": "AudioFX",
+    "removable": "yes",
+    "description": "Audio equalizer.",
+    "version": "1.4.0"
+  },
+  {
+    "apkName": "BackupRestoreConfirmation.apk",
+    "name": "BackupRestoreConfirmation",
+    "isGoogleApp": false,
+    "packageName": "com.android.backupconfirm",
+    "label": "com.android.backupconfirm",
+    "removable": "yes",
+    "description": "UI for the backup confirmation dialog when issuing \"adb backup\" command. Remove it if you don't use adb to backup your device.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "BasicDreams.apk",
+    "name": "BasicDreams",
+    "isGoogleApp": false,
+    "packageName": "com.android.dreams.basic",
+    "label": "Basic Daydreams",
+    "removable": "yes",
+    "description": "Customizable screensaver.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "Bluetooth.apk",
+    "name": "Bluetooth",
+    "isGoogleApp": false,
+    "packageName": "com.android.bluetooth",
+    "label": "Bluetooth Share",
+    "removable": "yes",
+    "description": "After removal, Bluetooth won't turn on.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "BluetoothExt.apk",
+    "name": "BluetoothExt",
+    "isGoogleApp": false,
+    "packageName": "org.codeaurora.bluetooth",
+    "label": "Bluetooth extensions",
+    "removable": "yes",
+    "description": "Service used for file sharing, handsfree equipment, Bluetooth modem and SIM adapter.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "BluetoothMidiService.apk",
+    "name": "BluetoothMidiService",
+    "isGoogleApp": false,
+    "packageName": "com.android.bluetoothmidiservice",
+    "label": "Bluetooth MIDI Service",
+    "removable": "yes",
+    "description": "Service used for connecting your device with musical instruments, stage lighting and other time-oriented media via Bluetooth.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "Browser.apk",
+    "name": "Browser",
+    "isGoogleApp": false,
+    "packageName": "com.android.browser",
+    "label": "Browser",
+    "removable": "yes",
+    "description": "Safe to remove as long as you install another browser.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "Calendar.apk",
+    "name": "Calendar",
+    "isGoogleApp": false,
+    "packageName": "com.android.calendar",
+    "label": "Calendar",
+    "removable": "yes",
+    "description": "Calendar app.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "CalendarProvider.apk",
+    "name": "CalendarProvider",
+    "isGoogleApp": false,
+    "packageName": "com.android.providers.calendar",
+    "label": "Calendar Storage",
+    "removable": "yes",
+    "description": "Syncs your phone calendar with Google Calendar. Necessary for notifications too.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "CallLogBackup.apk",
+    "name": "CallLogBackup",
+    "isGoogleApp": false,
+    "packageName": "com.android.calllogbackup",
+    "label": "Call Log Backup/Restore",
+    "removable": "yes",
+    "description": "Backup and restore your call logs (history).",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "CaptivePortalLogin.apk",
+    "name": "CaptivePortalLogin",
+    "isGoogleApp": false,
+    "packageName": "com.android.captiveportallogin",
+    "label": "CaptivePortalLogin",
+    "removable": "yes",
+    "description": "A service used for displaying a special web page that is shown before using the Internet normally. Remove this if you don't use public Wi-Fi networks.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "CarrierConfig.apk",
+    "name": "CarrierConfig",
+    "isGoogleApp": false,
+    "packageName": "com.android.carrierconfig",
+    "label": "com.android.carrierconfig",
+    "removable": "yes",
+    "description": "Modifies carrier configuration.",
+    "version": "1.0.0"
+  },
+  {
+    "apkName": "CellBroadcastReceiver.apk",
+    "name": "CellBroadcastReceiver",
+    "isGoogleApp": false,
+    "packageName": "com.android.cellbroadcastreceiver",
+    "label": "Cell Broadcasts",
+    "removable": "yes",
+    "description": "Remove this if you don't want to receive alerts for severe and extreme threats to life and property.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "CertInstaller.apk",
+    "name": "CertInstaller",
+    "isGoogleApp": false,
+    "packageName": "com.android.certinstaller",
+    "label": "Certificate Installer",
+    "removable": "no",
+    "description": "Without this, you won't be able to grant apps some special permissions and access certain files and directories.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "CMFileManager.apk",
+    "name": "CMFileManager",
+    "isGoogleApp": false,
+    "packageName": "com.cyanogenmod.filemanager",
+    "label": "File Manager",
+    "removable": "yes",
+    "description": "Default file manager. Can be replaced by another one.",
+    "version": "3.0.0"
+  },
+  {
+    "apkName": "CMSettingsProvider.apk",
+    "name": "CMSettingsProvider",
+    "isGoogleApp": false,
+    "packageName": "com.cyanogenmod.cmsettings",
+    "label": "CM Settings Storage",
+    "removable": "no",
+    "description": "Contains CM specific preferences in System, Secure and Global.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "CMUpdater.apk",
+    "name": "CMUpdater",
+    "isGoogleApp": false,
+    "packageName": "com.cyanogenmod.updater",
+    "label": "CM Updater",
+    "removable": "yes",
+    "description": "Remove it if you are upgrading through Recovery.",
+    "version": "2.3"
+  },
+  {
+    "apkName": "CMWallpapers.apk",
+    "name": "CMWallpapers",
+    "isGoogleApp": false,
+    "packageName": "com.cyanogenmod.wallpapers",
+    "label": "CM Wallpapers",
+    "removable": "yes",
+    "description": "Remove it if you don't need the \"No wallpaper\" option.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "com.qualcomm.location.apk",
+    "name": "com.qualcomm.location",
+    "isGoogleApp": false,
+    "packageName": "com.qualcomm.location",
+    "label": "LocationServices",
+    "removable": "yes",
+    "description": "I haven't encountered any problems after removal. Though one user reported that he lost his GPS signal upon removing this. Create a backup just in case.",
+    "version": "1.0"
+  },
+  {
+    "apkName": "Contacts.apk",
+    "name": "Contacts",
+    "isGoogleApp": false,
+    "packageName": "com.android.contacts",
+    "label": "Contacts",
+    "removable": "no",
+    "description": "Managing contacts, groups, favorites etc.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "ContactsProvider.apk",
+    "name": "ContactsProvider",
+    "isGoogleApp": false,
+    "packageName": "com.android.providers.contacts",
+    "label": "Contacts Storage",
+    "removable": "no",
+    "description": "Contacts sync.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "DefaultContainerService.apk",
+    "name": "DefaultContainerService",
+    "isGoogleApp": false,
+    "packageName": "com.android.defcontainer",
+    "label": "Package Access Helper",
+    "removable": "no",
+    "description": "Unpacks installation APK files.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "Dialer.apk",
+    "name": "Dialer",
+    "isGoogleApp": false,
+    "packageName": "com.android.dialer",
+    "label": "Phone",
+    "removable": "no",
+    "description": "Making phone calls.",
+    "version": "2.21"
+  },
+  {
+    "apkName": "DeskClock.apk",
+    "name": "DeskClock",
+    "isGoogleApp": false,
+    "packageName": "com.android.deskclock",
+    "label": "Clock",
+    "removable": "yes",
+    "description": "Remove it if you want to use another clock/alarm app.",
+    "version": "4.1.0"
+  },
+  {
+    "apkName": "Development.apk",
+    "name": "Development",
+    "isGoogleApp": false,
+    "packageName": "com.android.development",
+    "label": "Dev Tools",
+    "removable": "yes",
+    "description": "Tools and tests for developers.",
+    "version": "1.0"
+  },
+  {
+    "apkName": "DocumentsUI.apk",
+    "name": "DocumentsUI",
+    "isGoogleApp": false,
+    "packageName": "com.android.documentsui",
+    "label": "Documents",
+    "removable": "no",
+    "description": "Necessary for accessing Downloads app.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "DownloadProvider.apk",
+    "name": "DownloadProvider",
+    "isGoogleApp": false,
+    "packageName": "com.android.providers.downloads",
+    "label": "Download Manager",
+    "removable": "no",
+    "description": "If removed, download functionality won't work in Google Play and the default browser. It will work in Chrome and possibly other browsers, although a notification icon in status bar might not show. If you don't use Google Play for whatever reason, you can remove this app and use another download manager.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "DownloadProviderUi.apk",
+    "name": "DownloadProviderUi",
+    "isGoogleApp": false,
+    "packageName": "com.android.providers.downloads.ui",
+    "label": "Downloads",
+    "removable": "no",
+    "description": "Downloads app.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "Eleven.apk",
+    "name": "Eleven",
+    "isGoogleApp": false,
+    "packageName": "com.cyanogenmod.eleven",
+    "label": "Music",
+    "removable": "yes",
+    "description": "Remove it if you want to use another music player.",
+    "version": "2.0"
+  },
+  {
+    "apkName": "Email.apk",
+    "name": "Email",
+    "isGoogleApp": false,
+    "packageName": "com.android.email",
+    "label": "Email",
+    "removable": "yes",
+    "description": "Remove it if you don't use a local email server.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "ExactCalculator.apk",
+    "name": "ExactCalculator",
+    "isGoogleApp": false,
+    "packageName": "com.android.calculator2",
+    "label": "Calculator",
+    "removable": "yes",
+    "description": "Calculator app.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "Exchange2.apk",
+    "name": "Exchange2",
+    "isGoogleApp": false,
+    "packageName": "com.android.exchange",
+    "label": "Exchange Services",
+    "removable": "yes",
+    "description": "Provides sync for Email app.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "ExternalStorageProvider.apk",
+    "name": "ExternalStorageProvider",
+    "isGoogleApp": false,
+    "packageName": "com.android.externalstorage",
+    "label": "External Storage",
+    "removable": "no",
+    "description": "Grants apps access to external storage.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "FMRadio.apk",
+    "name": "FMRadio",
+    "isGoogleApp": false,
+    "packageName": "com.android.fmradio",
+    "label": "FM Radio",
+    "removable": "yes",
+    "description": "FM Radio app.",
+    "version": "2.0"
+  },
+  {
+    "apkName": "framework-res.apk",
+    "name": "framework-res",
+    "isGoogleApp": false,
+    "packageName": "android",
+    "label": "Android System",
+    "removable": "no",
+    "description": "Android system service.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "FusedLocation.apk",
+    "name": "FusedLocation",
+    "isGoogleApp": false,
+    "packageName": "com.android.location.fused",
+    "label": "Fused Location",
+    "removable": "yes",
+    "description": "Necessary for proper GPS functioning.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "Galaxy4.apk",
+    "name": "Galaxy4",
+    "isGoogleApp": false,
+    "packageName": "com.android.galaxy4",
+    "label": "Black Hole",
+    "removable": "yes",
+    "description": "Live wallpaper.",
+    "version": "1.0"
+  },
+  {
+    "apkName": "Gallery2.apk",
+    "name": "Gallery2",
+    "isGoogleApp": false,
+    "packageName": "com.android.gallery3d",
+    "label": "Gallery",
+    "removable": "yes",
+    "description": "Remove it if you use another photo gallery.",
+    "version": "1.1.40030"
+  },
+  {
+    "apkName": "HoloSpiralWallpaper.apk",
+    "name": "HoloSpiralWallpaper",
+    "isGoogleApp": false,
+    "packageName": "com.android.wallpaper.holospiral",
+    "label": "Holo Spiral",
+    "removable": "yes",
+    "description": "Live wallpaper.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "HTMLViewer.apk",
+    "name": "HTMLViewer",
+    "isGoogleApp": false,
+    "packageName": "com.android.htmlviewer",
+    "label": "HTML Viewer",
+    "removable": "yes",
+    "description": "Lets you view HTML files on your device.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "InputDevices.apk",
+    "name": "InputDevices",
+    "isGoogleApp": false,
+    "packageName": "com.android.inputdevices",
+    "label": "Input Devices",
+    "removable": "yes",
+    "description": "Default AOSP keyboard layout settings.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "KeyChain.apk",
+    "name": "KeyChain",
+    "isGoogleApp": false,
+    "packageName": "com.android.keychain",
+    "label": "Key Chain",
+    "removable": "no",
+    "description": "Credential manager for various Google services.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "LatinIME.apk",
+    "name": "LatinIME",
+    "isGoogleApp": false,
+    "packageName": "com.android.inputmethod.latin",
+    "label": "Android Keyboard (AOSP)",
+    "removable": "yes",
+    "description": "Stock Android keyboard. Safe to remove if replaced by another keyboard.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "LiveWallpapers.apk",
+    "name": "LiveWallpapers",
+    "isGoogleApp": false,
+    "packageName": "com.android.wallpaper",
+    "label": "Android Live Wallpapers",
+    "removable": "yes",
+    "description": "Remove it if you don't use live wallpapers.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "LiveWallpapersPicker.apk",
+    "name": "LiveWallpapersPicker",
+    "isGoogleApp": false,
+    "packageName": "com.android.wallpaper.livepicker",
+    "label": "Live Wallpaper Picker",
+    "removable": "yes",
+    "description": "Remove it if you don't use live wallpapers.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "LockClock.apk",
+    "name": "LockClock",
+    "isGoogleApp": false,
+    "packageName": "com.cyanogenmod.lockclock",
+    "label": "cLock",
+    "removable": "yes",
+    "description": "Clock widget with weather.",
+    "version": "3.4.1"
+  },
+  {
+    "apkName": "ManagedProvisioning.apk",
+    "name": "ManagedProvisioning",
+    "isGoogleApp": false,
+    "packageName": "com.android.managedprovisioning",
+    "label": "com.android.managedprovisioning",
+    "removable": "yes",
+    "description": "Customizes the profile/device owner provisioning flows with corporate colors and logos.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "MediaProvider.apk",
+    "name": "MediaProvider",
+    "isGoogleApp": false,
+    "packageName": "com.android.providers.media",
+    "label": "Media Storage",
+    "removable": "no",
+    "description": "Needed for accessing media files (including ringtones).",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "messaging.apk",
+    "name": "messaging",
+    "isGoogleApp": false,
+    "packageName": "com.android.messaging",
+    "label": "Messaging",
+    "removable": "yes",
+    "description": "Make sure you install another messaging app before removing this.",
+    "version": "1.0.001"
+  },
+  {
+    "apkName": "MmsService.apk",
+    "name": "MmsService",
+    "isGoogleApp": false,
+    "packageName": "com.android.mms.service",
+    "label": "Messaging Service",
+    "removable": "yes",
+    "description": "Necessary for receiving SMS/MMS. Some messaging apps won't require this service, some will. Create a backup just in case.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "NoiseField.apk",
+    "name": "NoiseField",
+    "isGoogleApp": false,
+    "packageName": "com.android.noisefield",
+    "label": "Bubbles",
+    "removable": "yes",
+    "description": "Live wallpaper.",
+    "version": "1.0"
+  },
+  {
+    "apkName": "org.cyanogenmod.platform-res.apk",
+    "name": "org.cyanogenmod.platform-res",
+    "isGoogleApp": false,
+    "packageName": "cyanogenmod.platform",
+    "label": "CyanogenMod System",
+    "removable": "no",
+    "description": "CyanogenMod system service.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "PackageInstaller.apk",
+    "name": "PackageInstaller",
+    "isGoogleApp": false,
+    "packageName": "com.android.packageinstaller",
+    "label": "Package Installer",
+    "removable": "no",
+    "description": "Used to manually install APK files (outside of Google Play).",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "PacProcessor.apk",
+    "name": "PacProcessor",
+    "isGoogleApp": false,
+    "packageName": "com.android.pacprocessor",
+    "label": "PacProcessor",
+    "removable": "no",
+    "description": "A service for handling proxy auto-config files. Some users stated that after deleting this, their device started to malfunction until eventually they couldn't go beyond boot animation.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "PhaseBeam.apk",
+    "name": "PhaseBeam",
+    "isGoogleApp": false,
+    "packageName": "com.android.phasebeam",
+    "label": "Phase Beam",
+    "removable": "yes",
+    "description": "Live wallpaper for developers. Remove it if you also removed Dev Tools.",
+    "version": "1.0"
+  },
+  {
+    "apkName": "PhotoPhase.apk",
+    "name": "PhotoPhase",
+    "isGoogleApp": false,
+    "packageName": "org.cyanogenmod.wallpapers.photophase",
+    "label": "PhotoPhase",
+    "removable": "yes",
+    "description": "Live wallpaper.",
+    "version": "1.0.11"
+  },
+  {
+    "apkName": "PhotoTable.apk",
+    "name": "PhotoTable",
+    "isGoogleApp": false,
+    "packageName": "com.android.dreams.phototable",
+    "label": "Photo Screensavers",
+    "removable": "yes",
+    "description": "Screensavers with your own pictures.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "PicoTts.apk",
+    "name": "PicoTts",
+    "isGoogleApp": false,
+    "packageName": "com.svox.pico",
+    "label": "Pico TTS",
+    "removable": "yes",
+    "description": "Text to speech engine.",
+    "version": "1.0"
+  },
+  {
+    "apkName": "PrintSpooler.apk",
+    "name": "PrintSpooler",
+    "isGoogleApp": false,
+    "packageName": "com.android.printspooler",
+    "label": "Print Spooler",
+    "removable": "yes",
+    "description": "Interacts with the printer and orders the print jobs in your queue.",
+    "version": "1.0"
+  },
+  {
+    "apkName": "Profiles.apk",
+    "name": "Profiles",
+    "isGoogleApp": false,
+    "packageName": "com.cyanogenmod.profiles",
+    "label": "Profiles Trust Provider",
+    "removable": "yes",
+    "description": "A trust agent used so that system profiles can better lock/unlock your device when you switch profiles.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "Provision.apk",
+    "name": "Provision",
+    "isGoogleApp": false,
+    "packageName": "com.android.provision",
+    "label": "com.android.provision",
+    "removable": "yes",
+    "description": "Runs on first boot. Conflicts with \"SetupWizard.apk\".",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "ProxyHandler.apk",
+    "name": "ProxyHandler",
+    "isGoogleApp": false,
+    "packageName": "com.android.proxyhandler",
+    "label": "ProxyHandler",
+    "removable": "yes",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "Screencast.apk",
+    "name": "Screencast",
+    "isGoogleApp": false,
+    "packageName": "org.cyanogenmod.screencast",
+    "label": "Screencast",
+    "removable": "yes",
+    "description": "Screen capture app.",
+    "version": "1.0.0.3"
+  },
+  {
+    "apkName": "Settings.apk",
+    "name": "Settings",
+    "isGoogleApp": false,
+    "packageName": "com.android.settings",
+    "label": "Settings",
+    "removable": "no",
+    "description": "Settings app.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "SettingsProvider.apk",
+    "name": "SettingsProvider",
+    "isGoogleApp": false,
+    "packageName": "com.android.providers.settings",
+    "label": "Settings Storage",
+    "removable": "no",
+    "description": "If removed, it may cause app crashes.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "SharedStorageBackup.apk",
+    "name": "SharedStorageBackup",
+    "isGoogleApp": false,
+    "packageName": "com.android.sharedstoragebackup",
+    "label": "com.android.sharedstoragebackup",
+    "removable": "yes",
+    "description": "Performs a backup of shared-storage file systems.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "Shell.apk",
+    "name": "Shell",
+    "isGoogleApp": false,
+    "packageName": "com.android.shell",
+    "label": "Shell",
+    "removable": "yes",
+    "description": "Error messages.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "StatementService.apk",
+    "name": "StatementService",
+    "isGoogleApp": false,
+    "packageName": "com.android.statementservice",
+    "label": "Intent Filter Verification Service",
+    "removable": "yes",
+    "version": "1.0"
+  },
+  {
+    "apkName": "Snap.apk",
+    "name": "Snap",
+    "isGoogleApp": false,
+    "packageName": "org.cyanogenmod.snap",
+    "label": "Camera",
+    "removable": "yes",
+    "description": "There are many alternatives in Play Store.",
+    "version": "2.0.002"
+  },
+  {
+    "apkName": "SnapdragonCamera.apk",
+    "name": "SnapdragonCamera",
+    "isGoogleApp": false,
+    "packageName": "org.codeaurora.snapcam",
+    "label": "Snapdragon Camera",
+    "removable": "yes",
+    "description": "There are many alternatives in Play Store.",
+    "version": "2.0.002"
+  },
+  {
+    "apkName": "SoundRecorder.apk",
+    "name": "SoundRecorder",
+    "isGoogleApp": false,
+    "packageName": "com.android.soundrecorder",
+    "label": "Sound Recorder",
+    "removable": "yes",
+    "description": "There are many alternatives in Play Store.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "Stk.apk",
+    "name": "Stk",
+    "isGoogleApp": false,
+    "packageName": "com.android.stk",
+    "label": "SIM Toolkit",
+    "removable": "no",
+    "description": "A set of commands which define how the card should interact with the outside world.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "SystemUI.apk",
+    "name": "SystemUI",
+    "isGoogleApp": false,
+    "packageName": "com.android.systemui",
+    "label": "System UI",
+    "removable": "no",
+    "description": "Android user interface.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "Telecom.apk",
+    "name": "Telecom",
+    "isGoogleApp": false,
+    "packageName": "com.android.server.telecom",
+    "label": "Phone Call Management",
+    "removable": "no",
+    "description": "A screen that shows when dialing.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "TelephonyProvider.apk",
+    "name": "TelephonyProvider",
+    "isGoogleApp": false,
+    "packageName": "com.android.providers.telephony",
+    "label": "Phone and Messaging Storage",
+    "removable": "no",
+    "description": "If removed, you won't receive any calls.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "TeleService.apk",
+    "name": "TeleService",
+    "isGoogleApp": false,
+    "packageName": "com.android.phone",
+    "label": "Phone Services",
+    "removable": "no",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "telresources.apk",
+    "name": "telresources",
+    "isGoogleApp": false,
+    "packageName": "com.android.frameworks.telresources",
+    "label": "com.android.frameworks.telresources",
+    "removable": "yes",
+    "description": "Not sure what this is for, but it didn't create any problems when frozen.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "Terminal.apk",
+    "name": "Terminal",
+    "isGoogleApp": false,
+    "packageName": "com.android.terminal",
+    "label": "Terminal",
+    "removable": "yes",
+    "description": "Offers local shell access.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "ThemeChooser.apk",
+    "name": "ThemeChooser",
+    "isGoogleApp": false,
+    "packageName": "org.cyanogenmod.theme.chooser",
+    "label": "Themes",
+    "removable": "yes",
+    "description": "Installing CM themes.",
+    "version": "1.0"
+  },
+  {
+    "apkName": "ThemesProvider.apk",
+    "name": "ThemesProvider",
+    "isGoogleApp": false,
+    "packageName": "org.cyanogenmod.themes.provider",
+    "label": "Themes Provider",
+    "removable": "yes",
+    "description": "Necessary for proper functioning of Themes.",
+    "version": "2.0"
+  },
+  {
+    "apkName": "TimeService.apk",
+    "name": "TimeService",
+    "isGoogleApp": false,
+    "packageName": "com.qualcomm.timeservice",
+    "label": "com.qualcomm.timeservice",
+    "removable": "yes",
+    "description": "Safe to remove.",
+    "version": "6.0-980725103d"
+  },
+  {
+    "apkName": "Trebuchet.apk",
+    "name": "Trebuchet",
+    "isGoogleApp": false,
+    "packageName": "com.cyanogenmod.trebuchet",
+    "label": "Trebuchet",
+    "removable": "yes",
+    "description": "Default launcher.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "UserDictionaryProvider.apk",
+    "name": "UserDictionaryProvider",
+    "isGoogleApp": false,
+    "packageName": "com.android.providers.userdictionary",
+    "label": "User Dictionary",
+    "removable": "yes",
+    "description": "\"Personal dictionary\" option in \"Settings > Language & Input\". Used with Android Keyboard (AOSP). If removed, Settings app may crash after modifying keyboard-related preferences.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "VpnDialogs.apk",
+    "name": "VpnDialogs",
+    "isGoogleApp": false,
+    "packageName": "com.android.vpndialogs",
+    "label": "VpnDialogs",
+    "removable": "yes",
+    "description": "VPN app.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "WallpaperCropper.apk",
+    "name": "WallpaperCropper",
+    "isGoogleApp": false,
+    "packageName": "com.android.wallpapercropper",
+    "label": "com.android.wallpapercropper",
+    "removable": "yes",
+    "description": "Wallpaper cropping tool.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "WAPPushManager.apk",
+    "name": "WAPPushManager",
+    "isGoogleApp": false,
+    "packageName": "com.android.smspush",
+    "label": "com.android.smspush",
+    "removable": "yes",
+    "description": "Tethering connectivity. Remove it if you don't use tethering/access point mode.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "webview.apk",
+    "name": "webview",
+    "isGoogleApp": false,
+    "packageName": "com.android.webview",
+    "label": "Android System WebView",
+    "removable": "yes",
+    "description": "System component powered by Chrome that allows Android apps to display web content. Remove it if you don't need in-app web content."
+  },
+  {
+    "apkName": "ConfigUpdater.apk",
+    "name": "ConfigUpdater",
+    "isGoogleApp": true,
+    "packageName": "com.google.android.configupdater",
+    "label": "ConfigUpdater",
+    "removable": "yes",
+    "description": "Automatically updates certificates, firewall configuration, premium SMS list (you'll be warned if an app sends a premium SMS), time zone information and SELinux configuration.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "FaceLock.apk",
+    "name": "FaceLock",
+    "isGoogleApp": true,
+    "packageName": "com.android.facelock",
+    "label": "Trusted Face",
+    "removable": "yes",
+    "description": "Unlocks your phone using camera.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "GoogleBackupTransport.apk",
+    "name": "GoogleBackupTransport",
+    "isGoogleApp": true,
+    "packageName": "com.google.android.backup",
+    "label": "Google Backup Transport",
+    "removable": "yes",
+    "description": "Backups settings on Google servers.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "GoogleCalendarSyncAdapter.apk",
+    "name": "GoogleCalendarSyncAdapter",
+    "isGoogleApp": true,
+    "packageName": "com.google.android.syncadapters.calendar",
+    "label": "Google Calendar Sync",
+    "removable": "yes",
+    "description": "Google Calendar sync.",
+    "version": "5.2.3-99827563-release"
+  },
+  {
+    "apkName": "GoogleContactsSyncAdapter.apk",
+    "name": "GoogleContactsSyncAdapter",
+    "isGoogleApp": true,
+    "packageName": "com.google.android.syncadapters.contacts",
+    "label": "Google Contacts Sync",
+    "removable": "yes",
+    "description": "Syncs your contacts with Google account.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "GoogleFeedback.apk",
+    "name": "GoogleFeedback",
+    "isGoogleApp": true,
+    "packageName": "com.google.android.feedback",
+    "label": "Market Feedback Agent",
+    "removable": "yes",
+    "description": "Allows other apps to call it and ask you to provide market feedback.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "GoogleLoginService.apk",
+    "name": "GoogleLoginService",
+    "isGoogleApp": true,
+    "packageName": "com.google.android.gsf.login",
+    "label": "Google Account Manager",
+    "removable": "no",
+    "description": "Google login system. Disables Google account functions.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "GoogleOneTimeInitializer.apk",
+    "name": "GoogleOneTimeInitializer",
+    "isGoogleApp": true,
+    "packageName": "com.google.android.onetimeinitializer",
+    "label": "Google One Time Init",
+    "removable": "yes",
+    "description": "Runs on first boot. Conflicts with \"Provision.apk\".",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "GooglePackageInstaller.apk",
+    "name": "GooglePackageInstaller",
+    "isGoogleApp": true,
+    "packageName": "com.google.android.packageinstaller",
+    "label": "Package Installer",
+    "removable": "yes",
+    "description": "Used to manually install APK files (outside of Google Play).",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "GooglePartnerSetup.apk",
+    "name": "GooglePartnerSetup",
+    "isGoogleApp": true,
+    "packageName": "com.google.android.partnersetup",
+    "label": "Google Partner Setup",
+    "removable": "no",
+    "description": "Runs application in conjunction with Google products.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "GoogleServicesFramework.apk",
+    "name": "GoogleServicesFramework",
+    "isGoogleApp": true,
+    "packageName": "com.google.android.gsf",
+    "label": "Google Services Framework",
+    "removable": "no",
+    "description": "Provides account/login information to Google apps.",
+    "version": "6.0.1"
+  },
+  {
+    "apkName": "GoogleTTS.apk",
+    "name": "GoogleTTS",
+    "isGoogleApp": true,
+    "packageName": "com.google.android.tts",
+    "label": "Google Text-to-speech Engine",
+    "removable": "yes",
+    "description": "Powers applications to read the text on your screen aloud.",
+    "version": "3.8.16"
+  },
+  {
+    "apkName": "Phonesky.apk",
+    "name": "Phonesky",
+    "isGoogleApp": true,
+    "packageName": "com.android.vending",
+    "label": "Google Play Store",
+    "removable": "no",
+    "description": "Browse and install various Android apps.",
+    "version": "6.4.13.C-all [0] 275-4070"
+  },
+  {
+    "apkName": "PrebuiltGmsCore.apk",
+    "name": "PrebuiltGmsCore",
+    "isGoogleApp": true,
+    "packageName": "com.google.android.gms",
+    "label": "Google Play services",
+    "removable": "no",
+    "description": "Services necessary for proper functioning of Google Play.",
+    "version": "8.7.03 (2645110-430)"
+  },
+  {
+    "apkName": "talkback.apk",
+    "name": "talkback",
+    "isGoogleApp": true,
+    "packageName": "com.google.android.marvin.talkback",
+    "label": "Talkback",
+    "removable": "yes",
+    "description": "Helps blind and vision-impaired users interact with their devices.",
+    "version": "4.5.0 Beta"
+  }
+]
