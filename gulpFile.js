@@ -4,10 +4,11 @@ var uglify      = require('gulp-uglify');
 var htmlmin     = require('gulp-htmlmin');
 var cssnano     = require('gulp-cssnano');
 var browserSync = require('browser-sync').create();
+var babyparse   = require('babyparse');
 
 // Build static HTML
 gulp.task('build-html', function() {
-  var apkData = require('./src/apkData.json');
+  var apkData = babyparse.parseFiles('./src/apkData.csv', {header: true}).data;
 
   return gulp.src('./src/templates/index.ejs')
              .pipe(ejs({apkData: apkData}, {}, {ext: '.html'}).on('error', console.error))
