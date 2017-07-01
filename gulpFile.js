@@ -8,7 +8,7 @@ var babyparse   = require('babyparse');
 
 // Build static HTML
 gulp.task('build-html', function() {
-  var apkData = babyparse.parseFiles('./src/apkData.csv', {header: true}).data;
+  var apkData = babyparse.parseFiles('./src/apkData.csv', {header: true, dynamicTyping: true}).data;
 
   return gulp.src('./src/templates/index.ejs')
              .pipe(ejs({apkData: apkData}, {}, {ext: '.html'}).on('error', console.error))

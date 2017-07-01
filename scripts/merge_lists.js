@@ -1,3 +1,7 @@
+/**
+ * Merge CM13 barebones list, device package list and existing LOSDiet lists
+ *
+ */
 var fs = require('fs');
 var _ = require('lodash');
 var babyparse = require('babyparse');
@@ -7,7 +11,7 @@ var remainingCmList = require('./data/original_CM13_barebone_list.json');
 // List of packages from phyiscal device
 var remainingAdbList = require('./data/adb_package_list.json');
 // Existing apkData for template
-var losDiet = babyparse.parseFiles('../src/apkData.csv', {header: true}).data;
+var losDiet = babyparse.parseFiles('../src/apkData.csv', {header: true, dynamicTyping: true}).data;
 
 // Packages still used in LineagesOS but not currently installed on my device (Moto X Pure/Clark)
 var autoAcceptNames = [
@@ -32,17 +36,30 @@ var losMatching = [];
 var remainingConcated = []
 var formattedPackageList = [];
 
+/**
+ * Standardize object
+ */
 var formatApk = function(apk, params) {
   return {
     description: String(apk.description || '').replace('Safe to remove.', ''),
     label: String(apk.label || apk.name).replace('Trebuchet', 'Launcher'),
-    packageName: apk.packageName,
-    name: apk.name,
-    isGoogleApp:  (params.isGoogleApp === true),
-    removable: (_.isUndefined(apk.removable) || apk.removable === 'yes'),
-    isCM13Only: (params.isCM13Only === true),
+    packageName: apk.packageName || '',
+    name: apk.name || '',
+    isGoogleApp:  (params.isGoogleApp === true || apk.isGoogleApp === true),
+    removable: (_.isUndefined(apk.removable) || apk.removable === 'yes' || apk.removable === true),
+    isCM13Only: (params.isCM13Only === true || apk.isCM13Only === true),
   };
 }
+
+//*****************************************************************************
+
+// Remove deveice specific stuff, I want to keep this generic
+_.remove(remainingAdbList, function(apk) {
+  return apk.packageName.indexOf('motorola.') !== -1;
+});
+_.remove(losDiet, function(apk) {
+  return apk.packageName.indexOf('motorola.') !== -1;
+});
 
 remainingCmList = remainingCmList.filter(function(cm) {
   var cmClone;
@@ -72,6 +89,15 @@ remainingCmList = remainingCmList.filter(function(cm) {
   }
 
   return true;
+});
+
+// remove Gapps that already exist
+_.remove(gApps, function(apk) {
+  return _.some(losDiet, ['packageName', apk.packageName]);
+});
+// remove CM13 apps that already exist
+_.remove(remainingCmList, function(apk) {
+  return _.some(losDiet, ['packageName', apk.packageName]);
 });
 
 remainingConcated = fullMatch.concat(remainingCmList, remainingAdbList, gApps);
@@ -116,4 +142,3 @@ formattedPackageList = _.unionWith(losMatching.map(formatApk),
 formattedPackageList = _.sortBy(formattedPackageList, function (i) { return String(i.label).toLowerCase(); });
 
 fs.writeFileSync('../src/apkData.csv', babyparse.unparse(formattedPackageList,{quoteChar: '"'}), 'utf-8');
-//}

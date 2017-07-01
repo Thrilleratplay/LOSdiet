@@ -34,7 +34,6 @@ Live wallpaper.,Bubbles,com.android.noisefield,NoiseField,false,true,true
 ,ConnMO,com.android.sdm.plugins.connmo,ConnMO,false,true,false
 ,Contacts,com.android.contacts,Contacts,false,true,false
 ,ContactsProvider,com.android.providers.contacts,ContactsProvider,false,true,false
-,CQATest,com.motorola.motocit,CQATest,false,true,false
 ,CtsShimPrebuilt,com.android.cts.ctsshim,CtsShimPrebuilt,false,true,false
 ,CtsShimPrivPrebuilt,com.android.cts.priv.ctsshim,CtsShimPrivPrebuilt,false,true,false
 ,CustomTiles,org.lineageos.customtiles,CustomTiles,false,true,false
@@ -93,7 +92,6 @@ Allows other apps to call it and ask you to provide market feedback.,Market Feed
 ,MediaProvider,com.android.providers.media,MediaProvider,false,true,false
 ,messaging,com.android.messaging,messaging,false,true,false
 ,MmsService,com.android.mms.service,MmsService,false,true,false
-,MotoSignatureApp,com.motorola.motosignature.app,MotoSignatureApp,false,true,false
 ,MtpDocumentsProvider,com.android.mtp,MtpDocumentsProvider,false,true,false
 ,NfcNci,com.android.nfc,NfcNci,false,true,false
 ,OneTimeInitializer,com.android.onetimeinitializer,OneTimeInitializer,false,true,false
