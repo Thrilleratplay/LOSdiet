@@ -1,4 +1,5 @@
 var gulp        = require('gulp');
+var rename      = require('gulp-rename');
 var ejs         = require('gulp-ejs');
 var uglify      = require('gulp-uglify');
 var htmlmin     = require('gulp-htmlmin');
@@ -20,6 +21,7 @@ gulp.task('build-html', function() {
 gulp.task('build-js', function() {
   return gulp.src('./src/js/*')
              .pipe(uglify())
+             .pipe(rename({ suffix: '.min'}))
              .pipe(gulp.dest('./docs/js/'));
 });
 
@@ -27,6 +29,7 @@ gulp.task('build-js', function() {
 gulp.task('build-css', function() {
   return gulp.src('./src/css/*')
              .pipe(cssnano())
+             .pipe(rename({ suffix: '.min'}))
              .pipe(gulp.dest('./docs/css/'));
 });
 
