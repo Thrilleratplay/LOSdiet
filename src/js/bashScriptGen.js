@@ -1,5 +1,4 @@
 var zipData;
-var savedApks = localStorage.getItem('LOSdiet_apks') || [];
 
 /**
  * Load empty zip file in the background.
@@ -14,22 +13,6 @@ JSZipUtils.getBinaryContent('./zips/slug.zip', function (err, data) {
 
   zipData = data;
 });
-
-/**
- * Disable Make Zip checkbox if no apps are selected
- */
-var disableMakeZipButton = function () {
-  document.querySelector('input[type=button]').disabled = (document.querySelectorAll('input:checked').length === 0);
-}
-
-// Bind disableMakeZipButton() to checkboxes
-Array.prototype.map.call(document.querySelectorAll('input[type=checkbox]'), function (checkbox) {
-  checkbox.addEventListener('change', disableMakeZipButton);
-  checkbox.checked = savedApks.indexOf(checkbox.id) > -1;
-});
-
-// initially set Make Zip disabled if need be.
-disableMakeZipButton();
 
 /**
  * Package script into zip to be downloaded
@@ -89,7 +72,7 @@ var itsGoTime = function () {
 
   // Excuse me, I'm looking for "the magic"
   // ** riding crop points ----> **
-  apks = Array.prototype.map.call(document.querySelectorAll('input:checked'), _returnId);
+  apks = Array.prototype.map.call(document.querySelectorAll('.container input:checked'), _returnId);
 
   // Load zip
   JSZip.loadAsync(zipData).then(function (zip) {

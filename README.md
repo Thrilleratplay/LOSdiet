@@ -1,7 +1,7 @@
 # LOSdiet
 ###### _All of that LineageOS taste without the filling_  
 
-Generate flashable zip to remove system apps from LineageOS 13/14 within the browser.    
+Generate flashable zip to remove system apps from LineageOS 14 within the browser.    
 
 ## WARNING!!!!
 **Very alpha stage**.  The list was created mainly from the [old Cyanogenmod Barebones list](http://web.archive.org/web/20161225102927/https://wiki.cyanogenmod.org/w/Barebones) and therefore probably wrong/out of date.  __Do not ask the LineageOS team for help and do not submit Jira issues as a result of using this project__.  If you do not know what you are doing, for the love of god and all that is holy...do not use this.

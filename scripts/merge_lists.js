@@ -141,4 +141,4 @@ formattedPackageList = _.unionWith(losMatching.map(formatApk),
 
 formattedPackageList = _.sortBy(formattedPackageList, function (i) { return String(i.label).toLowerCase(); });
 
-fs.writeFileSync('../src/apkData.csv', babyparse.unparse(formattedPackageList,{quoteChar: '"'}), 'utf-8');
+fs.writeFileSync('./apkData.csv', babyparse.unparse(formattedPackageList,{quoteChar: '"'}), 'utf-8');

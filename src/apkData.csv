@@ -1,143 +1,143 @@
-description,label,packageName,name,isGoogleApp,removable,isCM13Only
-Remove it if you don't use live wallpapers.,Android Live Wallpapers,com.android.wallpaper,LiveWallpapers,false,true,true
-"Service designed for various ANT/ANT+ devices like heart rate monitors, fitness equipment etc.",ANT HAL Service,com.dsi.ant.server,AntHalService,false,true,false
-,atfwd,com.qualcomm.atfwd,atfwd,false,true,false
-,AudioFX,org.cyanogenmod.audiofx,AudioFX,false,true,false
-,BackupRestoreConfirmation,com.android.backupconfirm,BackupRestoreConfirmation,false,true,false
-,BasicDreams,com.android.dreams.basic,BasicDreams,false,true,false
-Live wallpaper.,Black Hole,com.android.galaxy4,Galaxy4,false,true,true
-,BlockedNumberProvider,com.android.providers.blockednumber,BlockedNumberProvider,false,true,false
-,Bluetooth,com.android.bluetooth,Bluetooth,false,true,false
-,BluetoothExt,org.codeaurora.bluetooth,BluetoothExt,false,true,false
-,BluetoothMidiService,com.android.bluetoothmidiservice,BluetoothMidiService,false,true,false
-,BookmarkProvider,com.android.bookmarkprovider,BookmarkProvider,false,true,false
-Safe to remove as long as you install another browser.,Browser,org.lineageos.jelly,Jelly,false,true,false
-Safe to remove as long as you install another browser.,Browser,com.android.browser,Browser,false,true,true
-Live wallpaper.,Bubbles,com.android.noisefield,NoiseField,false,true,true
-,Calendar,com.android.calendar,Calendar,false,true,false
-,CalendarProvider,com.android.providers.calendar,CalendarProvider,false,true,false
-,CallLogBackup,com.android.calllogbackup,CallLogBackup,false,true,false
-,CaptivePortalLogin,com.android.captiveportallogin,CaptivePortalLogin,false,true,false
-,CarrierConfig,com.android.carrierconfig,CarrierConfig,false,true,false
-,CellBroadcastReceiver,com.android.cellbroadcastreceiver,CellBroadcastReceiver,false,true,false
-,CertInstaller,com.android.certinstaller,CertInstaller,false,true,false
-"Remove it if you don't need the ""No wallpaper"" option.",CM Wallpapers,com.cyanogenmod.wallpapers,CMWallpapers,false,true,true
-,CMActions,com.cyanogenmod.settings.device,CMActions,false,true,false
-,CMAudioService,org.cyanogenmod.cmaudio.service,CMAudioService,false,true,false
-,CMParts,org.cyanogenmod.cmparts,CMParts,false,true,false
-,CMSettingsProvider,org.cyanogenmod.cmsettings,CMSettingsProvider,false,true,false
-,CMUpdater,org.lineageos.updater,CMUpdater,false,true,false
-,CNEService,com.quicinc.cne.CNEService,CNEService,false,true,false
-"Not sure what this is for, but it didn't create any problems when frozen.",com.android.frameworks.telresources,com.android.frameworks.telresources,telresources,false,true,true
-"Runs on first boot. Conflicts with ""SetupWizard.apk"".",com.android.provision,com.android.provision,Provision,false,true,false
-"Automatically updates certificates, firewall configuration, premium SMS list (you'll be warned if an app sends a premium SMS), time zone information and SELinux configuration.",ConfigUpdater,com.google.android.configupdater,ConfigUpdater,true,true,false
-,ConnMO,com.android.sdm.plugins.connmo,ConnMO,false,true,false
-,Contacts,com.android.contacts,Contacts,false,true,false
-,ContactsProvider,com.android.providers.contacts,ContactsProvider,false,true,false
-,CtsShimPrebuilt,com.android.cts.ctsshim,CtsShimPrebuilt,false,true,false
-,CtsShimPrivPrebuilt,com.android.cts.priv.ctsshim,CtsShimPrivPrebuilt,false,true,false
-,CustomTiles,org.lineageos.customtiles,CustomTiles,false,true,false
-,DCMO,com.android.sdm.plugins.dcmo,DCMO,false,true,false
-,DefaultContainerService,com.android.defcontainer,DefaultContainerService,false,true,false
-,DeskClock,com.android.deskclock,DeskClock,false,true,false
-,Development,com.android.development,Development,false,true,false
-,DiagMon,com.android.sdm.plugins.diagmon,DiagMon,false,true,false
-,Dialer,com.android.dialer,Dialer,false,true,false
-,DMConfigUpdate,com.verizon.omadm,DMConfigUpdate,false,true,false
-,DMService,com.android.omadm.service,DMService,false,true,false
-,DocumentsUI,com.android.documentsui,DocumentsUI,false,true,false
-,DownloadProvider,com.android.providers.downloads,DownloadProvider,false,true,false
-,DownloadProviderUi,com.android.providers.downloads.ui,DownloadProviderUi,false,true,false
-,EasterEgg,com.android.egg,EasterEgg,false,true,false
-,Eleven,com.cyanogenmod.eleven,Eleven,false,true,false
-,Email,com.android.email,Email,false,true,false
-,EmergencyInfo,com.android.emergency,EmergencyInfo,false,true,false
-,ExactCalculator,com.android.calculator2,ExactCalculator,false,true,false
-,Exchange2,com.android.exchange,Exchange2,false,true,false
-,ExternalStorageProvider,com.android.externalstorage,ExternalStorageProvider,false,true,false
-,ExtServices,android.ext.services,ExtServices,false,true,false
-,ExtShared,android.ext.shared,ExtShared,false,true,false
-Default file manager. Can be replaced by another one.,File Manager,com.cyanogenmod.filemanager,CMFileManager,false,true,true
-FM Radio app.,FM Radio,com.android.fmradio,FMRadio,false,true,false
-,framework-res.apk,android,framework-res.apk,false,true,false
-,FusedLocation,com.android.location.fused,FusedLocation,false,true,false
-,Gallery2,com.android.gallery3d,Gallery2,false,true,false
-,GCS,com.google.android.apps.gcs,GCS,false,true,false
-Google login system. Disables Google account functions.,Google Account Manager,com.google.android.gsf.login,GoogleLoginService,true,false,false
-Backups settings on Google servers.,Google Backup Transport,com.google.android.backup,GoogleBackupTransport,true,true,false
-Google Calendar sync.,Google Calendar Sync,com.google.android.syncadapters.calendar,GoogleCalendarSyncAdapter,true,true,false
-Syncs your contacts with Google account.,Google Contacts Sync,com.google.android.syncadapters.contacts,GoogleContactsSyncAdapter,true,true,false
-"Runs on first boot. Conflicts with ""Provision.apk"".",Google One Time Init,com.google.android.onetimeinitializer,GoogleOneTimeInitializer,true,true,false
-Runs application in conjunction with Google products.,Google Partner Setup,com.google.android.partnersetup,GooglePartnerSetup,true,false,false
-Services necessary for proper functioning of Google Play.,Google Play services,com.google.android.gms,PrebuiltGmsCore,true,false,false
-Browse and install various Android apps.,Google Play Store,com.android.vending,Phonesky,true,false,false
-Provides account/login information to Google apps.,Google Services Framework,com.google.android.gsf,GoogleServicesFramework,true,false,false
-Powers applications to read the text on your screen aloud.,Google Text-to-speech Engine,com.google.android.tts,GoogleTTS,true,true,false
-,HiddenMenu,com.android.sprint.hiddenmenuapp,HiddenMenu,false,true,false
-Live wallpaper.,Holo Spiral,com.android.wallpaper.holospiral,HoloSpiralWallpaper,false,true,true
-,HTMLViewer,com.android.htmlviewer,HTMLViewer,false,true,false
-,ims,org.codeaurora.ims,ims,false,true,false
-,InputDevices,com.android.inputdevices,InputDevices,false,true,false
-,KeyChain,com.android.keychain,KeyChain,false,true,false
-,LatinIME,com.android.inputmethod.latin,LatinIME,false,true,false
-,Launcher,com.cyanogenmod.trebuchet,Trebuchet,false,true,false
-,LifetimeData,com.android.sprint.lifetimedata,LifetimeData,false,true,false
-,LineageSetupWizard,com.cyanogenmod.setupwizard,LineageSetupWizard,false,true,false
-,LiveLockScreenService,org.cyanogenmod.livelockscreen.service,LiveLockScreenService,false,true,false
-,LiveWallpapersPicker,com.android.wallpaper.livepicker,LiveWallpapersPicker,false,true,false
-I haven't encountered any problems after removal. Though one user reported that he lost his GPS signal upon removing this. Create a backup just in case.,LocationServices,com.qualcomm.location,com.qualcomm.location,false,true,false
-,LockClock,com.cyanogenmod.lockclock,LockClock,false,true,false
-,ManagedProvisioning,com.android.managedprovisioning,ManagedProvisioning,false,true,false
-Allows other apps to call it and ask you to provide market feedback.,Market Feedback Agent,com.google.android.feedback,GoogleFeedback,true,true,false
-,MediaProvider,com.android.providers.media,MediaProvider,false,true,false
-,messaging,com.android.messaging,messaging,false,true,false
-,MmsService,com.android.mms.service,MmsService,false,true,false
-,MtpDocumentsProvider,com.android.mtp,MtpDocumentsProvider,false,true,false
-,NfcNci,com.android.nfc,NfcNci,false,true,false
-,OneTimeInitializer,com.android.onetimeinitializer,OneTimeInitializer,false,true,false
-,org.cyanogenmod.platform-res.apk,cyanogenmod.platform,org.cyanogenmod.platform-res.apk,false,true,false
-Used to manually install APK files (outside of Google Play).,Package Installer,com.google.android.packageinstaller,GooglePackageInstaller,true,true,false
-,PackageInstaller,com.android.packageinstaller,PackageInstaller,false,true,false
-,PacProcessor,com.android.pacprocessor,PacProcessor,false,true,false
-Live wallpaper for developers. Remove it if you also removed Dev Tools.,Phase Beam,com.android.phasebeam,PhaseBeam,false,true,true
-Live wallpaper.,PhotoPhase,org.cyanogenmod.wallpapers.photophase,PhotoPhase,false,true,true
-,PhotoTable,com.android.dreams.phototable,PhotoTable,false,true,false
-,PicoTts,com.svox.pico,PicoTts,false,true,false
-,PrintRecommendationService,com.android.printservice.recommendation,PrintRecommendationService,false,true,false
-,PrintSpooler,com.android.printspooler,PrintSpooler,false,true,false
-,Profiles,org.cyanogenmod.profiles,Profiles,false,true,false
-,ProxyHandler,com.android.proxyhandler,ProxyHandler,false,true,false
-,qcrilmsgtunnel,com.qualcomm.qcrilmsgtunnel,qcrilmsgtunnel,false,true,false
-,Recorder,org.lineageos.recorder,Recorder,false,true,false
-Screen capture app.,Screencast,org.cyanogenmod.screencast,Screencast,false,true,false
-,Settings,com.android.settings,Settings,false,true,false
-,SettingsProvider,com.android.providers.settings,SettingsProvider,false,true,false
-,SharedStorageBackup,com.android.sharedstoragebackup,SharedStorageBackup,false,true,false
-,Shell,com.android.shell,Shell,false,true,false
-,Snap,org.cyanogenmod.snap,Snap,false,true,false
-There are many alternatives in Play Store.,Snapdragon Camera,org.codeaurora.snapcam,SnapdragonCamera,false,true,true
-There are many alternatives in Play Store.,Sound Recorder,com.android.soundrecorder,SoundRecorder,false,true,false
-,SprintDM,com.android.sdm.plugins.sprintdm,SprintDM,false,true,false
-,StatementService,com.android.statementservice,StatementService,false,true,false
-,Stk,com.android.stk,Stk,false,true,false
-,StorageManager,com.android.storagemanager,StorageManager,false,true,false
-,SystemUI,com.android.systemui,SystemUI,false,true,false
-,Tag,com.android.apps.tag,Tag,false,true,false
-Helps blind and vision-impaired users interact with their devices.,Talkback,com.google.android.marvin.talkback,talkback,true,true,false
-,Telecom,com.android.server.telecom,Telecom,false,true,false
-,TelephonyProvider,com.android.providers.telephony,TelephonyProvider,false,true,false
-,TeleService,com.android.phone,TeleService,false,true,false
-,Terminal,com.android.terminal,Terminal,false,true,false
-Installing CM themes.,Themes,org.cyanogenmod.theme.chooser,ThemeChooser,false,true,false
-Necessary for proper functioning of Themes.,Themes Provider,org.cyanogenmod.themes.provider,ThemesProvider,false,true,false
-,TimeService,com.qualcomm.timeservice,TimeService,false,true,false
-Unlocks your phone using camera.,Trusted Face,com.android.facelock,FaceLock,true,true,false
-,UserDictionaryProvider,com.android.providers.userdictionary,UserDictionaryProvider,false,true,false
-,VpnDialogs,com.android.vpndialogs,VpnDialogs,false,true,false
-,WallpaperBackup,com.android.wallpaperbackup,WallpaperBackup,false,true,false
-,WallpaperCropper,com.android.wallpapercropper,WallpaperCropper,false,true,false
-,WallpaperPicker,com.android.wallpaperpicker,WallpaperPicker,false,true,false
-,WAPPushManager,com.android.smspush,WAPPushManager,false,true,false
-,WeatherManagerService,org.cyanogenmod.weatherservice,WeatherManagerService,false,true,false
-,WeatherProvider,org.cyanogenmod.weather.provider,WeatherProvider,false,true,false
-,webview,com.android.webview,webview,false,true,false
+description,label,packageName,name,isGoogleApp,exportOnly,isCM13Only
+Remove it if you don't use live wallpapers.,Android Live Wallpapers,com.android.wallpaper,LiveWallpapers,,,true
+System component powered by Chrome that allows Android apps to display web content. WARNING: Remove it if you don't need in-app web content or use Jelly,Android System Webview,com.android.webview,webview,,,
+"Service designed for various ANT/ANT+ devices like heart rate monitors, fitness equipment etc.",ANT HAL Service,com.dsi.ant.server,AntHalService,,true,
+Qualcomm radio service,atfwd,com.qualcomm.atfwd,atfwd,,true,
+Audio equalizer,Audio FX,org.cyanogenmod.audiofx,AudioFX,,,
+Confirm with the user that a requested full backup/restore operation is legitimate. May impact LineageOS upgrades and/or this script,Backup Restore Confirmation,com.android.backupconfirm,BackupRestoreConfirmation,,true,
+Screen saver,Basic Dreams,com.android.dreams.basic,BasicDreams,,,
+Live wallpaper.,Black Hole,com.android.galaxy4,Galaxy4,,,true
+,Blocked Number Provider,com.android.providers.blockednumber,BlockedNumberProvider,,true,
+"After removal, Bluetooth won't turn on",Bluetooth,com.android.bluetooth,Bluetooth,,true,
+"Service used for file sharing, hands-free equipment, Bluetooth modem and SIM adapter.",Bluetooth Extensions,org.codeaurora.bluetooth,BluetoothExt,,true,
+"Service used for connecting your device with musical instruments, stage lighting and other time-oriented media via Bluetooth.",Bluetooth MIDI Service,com.android.bluetoothmidiservice,BluetoothMidiService,,true,
+,Bookmark Provider,com.android.bookmarkprovider,BookmarkProvider,,true,
+Safe to remove as long as you install another browser.,Browser,org.lineageos.jelly,Jelly,,,
+Safe to remove as long as you install another browser.,Browser,com.android.browser,Browser,,true,true
+Live wallpaper.,Bubbles,com.android.noisefield,NoiseField,,true,true
+Calculator application,Calculator,com.android.calculator2,ExactCalculator,,true,
+Calendar application,Calendar,com.android.calendar,Calendar,,,
+Syncs your phone calendar with Google Calendar. Necessary for notifications too.,Calendar Provider,com.android.providers.calendar,CalendarProvider,,true,
+Backup and restore your call logs (history).,Call Log Backup,com.android.calllogbackup,CallLogBackup,,,
+Camera application,Camera (Snapdragon),org.codeaurora.snapcam,SnapdragonCamera,,,true
+Camera application,Camera/Snap,org.cyanogenmod.snap,Snap,,,
+A service used for displaying a special web page that is shown before using the Internet normally. Remove this if you don't use public Wi-Fi networks.,Captive Portal Login,com.android.captiveportallogin,CaptivePortalLogin,,,
+Modifies carrier configuration.,Carrier Configuration,com.android.carrierconfig,CarrierConfig,,true,
+Remove this if you don't want to receive alerts for severe and extreme threats to life and property.,Cell Broadcast Receiver,com.android.cellbroadcastreceiver,CellBroadcastReceiver,,true,
+,Cert Installer,com.android.certinstaller,CertInstaller,,true,
+LineageOS device specific functions,CM Actions,com.cyanogenmod.settings.device,CMActions,,true,
+,CM Audio Service,org.cyanogenmod.cmaudio.service,CMAudioService,,true,
+,CM Parts,org.cyanogenmod.cmparts,CMParts,,true,
+,CM Settings Provider,org.cyanogenmod.cmsettings,CMSettingsProvider,,true,
+"Remove it if you don't need the ""No wallpaper"" option.",CM Wallpapers,com.cyanogenmod.wallpapers,CMWallpapers,,,true
+,CNE Service,com.quicinc.cne.CNEService,CNEService,,true,
+,com.android.frameworks.telresources,com.android.frameworks.telresources,telresources,,true,true
+"Runs on first boot. Conflicts with ""SetupWizard.apk"".",com.android.provision,com.android.provision,Provision,,true,
+"Automatically updates certificates, firewall configuration, premium SMS list (you'll be warned if an app sends a premium SMS), time zone information and SELinux configuration.",Config Updater,com.google.android.configupdater,ConfigUpdater,true,true,
+Managed Objects for cellular connection,ConnMO,com.android.sdm.plugins.connmo,ConnMO,,true,
+Contacts application.  WARNING: Removal may impact other applications like Email and Dialer.,Contacts,com.android.contacts,Contacts,,,
+,Contacts Provider,com.android.providers.contacts,ContactsProvider,,true,
+,Cts Shim Prebuilt,com.android.cts.ctsshim,CtsShimPrebuilt,,true,
+,Cts Shim Priv Prebuilt,com.android.cts.priv.ctsshim,CtsShimPrivPrebuilt,,true,
+,Custom Tiles,org.lineageos.customtiles,CustomTiles,,true,
+,DCMO,com.android.sdm.plugins.dcmo,DCMO,,true,
+,Default Container Service,com.android.defcontainer,DefaultContainerService,,true,
+Clock application.  Warning may be connected to LockClock/cLock,DeskClock,com.android.deskclock,DeskClock,,,
+Tools and tests for developers.,Development,com.android.development,Development,,true,
+,DiagMon,com.android.sdm.plugins.diagmon,DiagMon,,true,
+,Dialer,com.android.dialer,Dialer,,true,
+,DM Config Update,com.verizon.omadm,DMConfigUpdate,,true,
+,DM Service,com.android.omadm.service,DMService,,true,
+,Documents UI,com.android.documentsui,DocumentsUI,,true,
+,Download Provider,com.android.providers.downloads,DownloadProvider,,true,
+,Download Provider UI,com.android.providers.downloads.ui,DownloadProviderUi,,true,
+,Easter Egg,com.android.egg,EasterEgg,,true,
+Email Application,Email,com.android.email,Email,,,
+,Emergency Info,com.android.emergency,EmergencyInfo,,true,
+Email Service,Exchange2,com.android.exchange,Exchange2,,true,
+,External Storage Provider,com.android.externalstorage,ExternalStorageProvider,,true,
+,ExtServices,android.ext.services,ExtServices,,true,
+,ExtShared,android.ext.shared,ExtShared,,true,
+Default file manager.,File Manager,com.cyanogenmod.filemanager,CMFileManager,,,true
+FM Radio application,FM Radio,com.android.fmradio,FMRadio,,,
+,framework-res.apk,android,framework-res.apk,,true,
+Necessary for proper GPS functioning,Fused Location,com.android.location.fused,FusedLocation,,true,
+Gallery Application,Gallery,com.android.gallery3d,Gallery2,,,
+Google login system. Disables Google account functions.,Google Account Manager,com.google.android.gsf.login,GoogleLoginService,true,,
+Backups settings on Google servers.,Google Backup Transport,com.google.android.backup,GoogleBackupTransport,true,true,
+Google Calendar sync.,Google Calendar Sync,com.google.android.syncadapters.calendar,GoogleCalendarSyncAdapter,true,true,
+Google Cloud Storage (GCS).  WARNING: may impact other Google Applications,Google Cloud Storage,com.google.android.apps.gcs,GCS,,,
+Syncs your contacts with Google account.,Google Contacts Sync,com.google.android.syncadapters.contacts,GoogleContactsSyncAdapter,true,true,
+"Runs on first boot. Conflicts with ""Provision.apk"".",Google One Time Init,com.google.android.onetimeinitializer,GoogleOneTimeInitializer,true,true,
+Used to manually install APK files (outside of Google Play).,Google Package Installer,com.google.android.packageinstaller,GooglePackageInstaller,true,true,
+Runs application in conjunction with Google products.,Google Partner Setup,com.google.android.partnersetup,GooglePartnerSetup,true,,
+Services necessary for proper functioning of Google Play.,Google Play services,com.google.android.gms,PrebuiltGmsCore,true,,
+Browse and install various Android apps.,Google Play Store,com.android.vending,Phonesky,true,,
+Provides account/login information to Google apps.,Google Services Framework,com.google.android.gsf,GoogleServicesFramework,true,,
+Powers applications to read the text on your screen aloud.,Google Text-to-speech Engine,com.google.android.tts,GoogleTTS,true,true,
+,Hidden Menu,com.android.sprint.hiddenmenuapp,HiddenMenu,,true,
+Live wallpaper.,Holo Spiral,com.android.wallpaper.holospiral,HoloSpiralWallpaper,,,true
+Lets you view HTML files on your device,HTML Viewer,com.android.htmlviewer,HTMLViewer,,,
+,ims,org.codeaurora.ims,ims,,true,
+Default AOSP keyboard layout settings.,Input Devices,com.android.inputdevices,InputDevices,,true,
+Password storage,KeyChain,com.android.keychain,KeyChain,,true,
+"Stock Android keyboard. Safe to remove if replaced by another keyboard. WARNING: if your device is encrypted with a password, the default keyboard is needed.",LatinIME,com.android.inputmethod.latin,LatinIME,,true,
+Default Launcher.  Only remove if another launcher has been installed,Launcher,com.cyanogenmod.trebuchet,Trebuchet,,,
+,LifetimeData,com.android.sprint.lifetimedata,LifetimeData,,true,
+Needed to initially provision device,Lineage Setup Wizard,com.cyanogenmod.setupwizard,LineageSetupWizard,,true,
+Remove it if you are upgrading through Recovery.,LineageOS/CM Updater,org.lineageos.updater,CMUpdater,,true,
+,Live Lock Screen Service,org.cyanogenmod.livelockscreen.service,LiveLockScreenService,,true,
+Remove it if you don't use live wallpapers.,Live Wallpapers Picker,com.android.wallpaper.livepicker,LiveWallpapersPicker,,,
+,Location Services,com.qualcomm.location,com.qualcomm.location,,true,
+Lockscreen clock and weather widget.  WARNING: removal may impact DeskClock,LockClock/cLock,com.cyanogenmod.lockclock,LockClock,,,
+Customizes the profile/device owner provisioning flows with corporate colors and logos.,Managed Provisioning,com.android.managedprovisioning,ManagedProvisioning,,true,
+Allows other apps to call it and ask you to provide market feedback.,Market Feedback Agent,com.google.android.feedback,GoogleFeedback,true,true,
+,Media Provider,com.android.providers.media,MediaProvider,,true,
+SMS/MMS Messaging Application,Messaging,com.android.messaging,messaging,,,
+Necessary for receiving SMS/MMS.,MMS Service,com.android.mms.service,MmsService,,true,
+,Mtp Documents Provider,com.android.mtp,MtpDocumentsProvider,,true,
+Music application,Music/Eleven,com.cyanogenmod.eleven,Eleven,,,
+,NfcNci,com.android.nfc,NfcNci,,true,
+,One Time Initializer,com.android.onetimeinitializer,OneTimeInitializer,,true,
+,org.cyanogenmod.platform-res.apk,cyanogenmod.platform,org.cyanogenmod.platform-res.apk,,true,
+,Pac Processor,com.android.pacprocessor,PacProcessor,,true,
+,Package Installer,com.android.packageinstaller,PackageInstaller,,true,
+Live wallpaper for developers. Remove it if you also removed Dev Tools.,Phase Beam,com.android.phasebeam,PhaseBeam,,,true
+Live wallpaper.,Photo Phase,org.cyanogenmod.wallpapers.photophase,PhotoPhase,,,true
+Screensavers with your own pictures.,Photo Table,com.android.dreams.phototable,PhotoTable,,,
+Text to speech engine.,Pico TTS,com.svox.pico,PicoTts,,,
+Printer recommendation service.  WARNING: Only remove if never intending to print from device,Print Recommendation Service,com.android.printservice.recommendation,PrintRecommendationService,,,
+Interacts with the printer and orders the print jobs in your queue.  WARNING: Only remove if never intending to print from device,Print Spooler,com.android.printspooler,PrintSpooler,,,
+A trust agent used so that system profiles can better lock/unlock your device when you switch profiles.,Profiles,org.cyanogenmod.profiles,Profiles,,true,
+,Proxy Handler,com.android.proxyhandler,ProxyHandler,,true,
+,qcrilmsgtunnel,com.qualcomm.qcrilmsgtunnel,qcrilmsgtunnel,,true,
+Screen and Audio Recorder application,Recorder,org.lineageos.recorder,Recorder,,,
+Screen capture application,Screencast,org.cyanogenmod.screencast,Screencast,,,
+,Settings,com.android.settings,Settings,,true,
+,Settings Provider,com.android.providers.settings,SettingsProvider,,true,
+Performs a backup of shared-storage file systems,Shared Storage Backup,com.android.sharedstoragebackup,SharedStorageBackup,,true,
+Error messages,Shell,com.android.shell,Shell,,true,
+Audio Recorder application,Sound Recorder,com.android.soundrecorder,SoundRecorder,,,
+,SprintDM,com.android.sdm.plugins.sprintdm,SprintDM,,true,
+,Statement Service,com.android.statementservice,StatementService,,true,
+,Stk,com.android.stk,Stk,,true,
+,Storage Manager,com.android.storagemanager,StorageManager,,true,
+,System UI,com.android.systemui,SystemUI,,true,
+,Tag,com.android.apps.tag,Tag,,true,
+Helps blind and vision-impaired users interact with their devices.,Talkback,com.google.android.marvin.talkback,talkback,true,true,
+,Telecom,com.android.server.telecom,Telecom,,true,
+,Telephony Provider,com.android.providers.telephony,TelephonyProvider,,true,
+,TeleService,com.android.phone,TeleService,,true,
+Terminal application.  Offers local shell access.,Terminal,com.android.terminal,Terminal,,,
+Installing CM themes.,Themes,org.cyanogenmod.theme.chooser,ThemeChooser,,true,
+Necessary for proper functioning of Themes.,Themes Provider,org.cyanogenmod.themes.provider,ThemesProvider,,true,
+,Time Service,com.qualcomm.timeservice,TimeService,,true,
+Unlocks your phone using camera.,Trusted Face,com.android.facelock,FaceLock,true,true,
+Personal dictionary,User Dictionary Provider,com.android.providers.userdictionary,UserDictionaryProvider,,true,
+VPN Application,VPN Dialogs,com.android.vpndialogs,VpnDialogs,,,
+,Wallpaper Backup,com.android.wallpaperbackup,WallpaperBackup,,true,
+Wallpaper cropping tool,Wallpaper Cropper,com.android.wallpapercropper,WallpaperCropper,,,
+,Wallpaper Picker,com.android.wallpaperpicker,WallpaperPicker,,true,
+Tethering connectivity. Remove it if you don't use tethering/access point mode.,WAP Push Manager,com.android.smspush,WAPPushManager,,,
+,Weather Manager Service,org.cyanogenmod.weatherservice,WeatherManagerService,,true,
+,Weather Provider,org.cyanogenmod.weather.provider,WeatherProvider,,true,

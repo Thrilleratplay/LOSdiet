@@ -37,8 +37,14 @@
 .collection {
   border: none;
 }
-.collection .collection-item {
+.collection .collection-item,
+.collection a.collection-item {
   background-color: transparent;
+}
+
+.collection .collection-item:not(:hover),
+.collection a.collection-item:not(:hover) {
+  color: #fff;
 }
 
 .desc {
@@ -46,4 +52,15 @@
   color: #fff;
   font-style: italic;
   font-weight: bold;
+}
+
+.switch > label {
+  color: #fff;
+  display: flex;
+  font-size: inherit;
+  justify-content: space-between;
+}
+
+.switch > label:hover {
+  color: #26a69a;
 }
