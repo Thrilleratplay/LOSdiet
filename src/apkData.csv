@@ -1,4 +1,4 @@
-description,label,packageName,name,isGoogleApp,exportOnly,isCM13Only
+description,label,packageName,name,isGoogleApp,expertOnly,isCM13Only
 Remove it if you don't use live wallpapers.,Android Live Wallpapers,com.android.wallpaper,LiveWallpapers,,,true
 System component powered by Chrome that allows Android apps to display web content. WARNING: Remove it if you don't need in-app web content or use Jelly,Android System Webview,com.android.webview,webview,,,
 "Service designed for various ANT/ANT+ devices like heart rate monitors, fitness equipment etc.",ANT HAL Service,com.dsi.ant.server,AntHalService,,true,
