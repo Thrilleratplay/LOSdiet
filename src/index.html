@@ -74,9 +74,18 @@
         </div>
         <section>
           <article id="apkList">
+            <!-- BEGIN apkList -->
             <div class="container apk-containter">
               <div class="center">Loading...</div>
             </div>
+            <!-- END apkList -->
+            <!-- BEGIN manual entry -->
+            <div class="container row user-apks-container">
+              <div class="input-field col s12 l6 offset-l3">
+                <textarea class="user-apks" placeholder="Manually enter package names to remove"></textarea>
+              </div>
+            </div>
+            <!-- END manual entry -->
             <div class="row center">
               <input class="waves-effect waves-light btn-large" type=button onClick="itsGoTime()" value="Make Zip" />
             </div>
