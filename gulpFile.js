@@ -1,9 +1,11 @@
+var fs          = require('fs');
+
 var gulp        = require('gulp');
 var rename      = require('gulp-rename');
 var uglify      = require('gulp-uglify');
 var htmlmin     = require('gulp-htmlmin');
 var cssnano     = require('gulp-cssnano');
-var fs          = require('fs');
+
 var browserSync = require('browser-sync').create();
 var babyparse   = require('babyparse');
 var _           = require('lodash');
@@ -56,11 +58,20 @@ gulp.task('convert-csvToJson', function() {
 // DO ALL OF THE THINGZ!!!!!
 gulp.task('build', ['build-html','build-js', 'build-css', 'convert-csvToJson']);
 
+gulp.task('reload', ['build'], function(done) {
+  browserSync.reload();
+  done();
+});
+
 // Dev web Server
 gulp.task('dev', ['build'], function() {
-  browserSync.init({ server: { baseDir: "./docs" }, injectChanges: true });
-
-  gulp.watch(['./src/**/*'], ['build'], function() {
-    browserSync.reload('*.*');
+  browserSync.init({
+    server: {
+      baseDir: "./docs"
+    },
+    injectChanges: false,
+    browser: ["chromium"]
   });
+
+  gulp.watch(['./src/**/*'], ['reload']);
 });
