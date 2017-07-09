@@ -1,13 +1,14 @@
-var selectedApks = localStorage.getItem('LOSdiet_apks') || [];
+var selectedApks = JSON.parse(localStorage.getItem('LOSdiet.apks')) || [];
+var manuallyEnteredApks = JSON.parse(localStorage.getItem('LOSdiet.user_added_apks')) || [];
 var apkListContainer = document.querySelector('.apk-containter');
+var userApkContainer = document.querySelector('.user-apks-container');
+var userApkTextarea = userApkContainer.querySelector('textarea');
 var makeZipButton = document.querySelector('input[type=button][value="Make Zip"]');
 var filterList = document.querySelector('.filter-list');
 
 var apkData;
 
-if (!Array.isArray(selectedApks)) {
-  selectedApks = [selectedApks];
-}
+userApkTextarea.value = manuallyEnteredApks.join("\n");
 
 /**
  * Disable Make Zip checkbox if no apps are selected
@@ -22,7 +23,7 @@ var isApkSelected = function(apk) {
 
 var filterApkList = function(apk) {
   return isApkSelected(apk)
-  || ((!apk.exportOnly || filterList.querySelector('input[name="expertMode"]:checked'))
+  || ((!apk.expertOnly || filterList.querySelector('input[name="expertMode"]:checked'))
       && !apk.isGoogleApp && !apk.isCM13Only);
 }
 
@@ -35,6 +36,9 @@ var renderApkList = function () {
                   '<label for="<%= apk.name %>">',
                     '<div class="apk-label truncate"><%= apk.label %></div>',
                   '</label>',
+                  '<div>',
+                    '<%-(apk.expertOnly ? \'<span class="chip red">Danger</span>\': "")%> ',
+                  '</div>',
                 '</div>',
                 '<div class="col hide-on-med-and-down l3">',
                   '<div class="truncate">',
@@ -73,6 +77,13 @@ var renderApkList = function () {
 
   // initially set Make Zip disabled if need be.
   disableMakeZipButton();
+
+  // Show/Hide User Entered textarea
+  if (filterList.querySelector('input[name="expertMode"]:checked') || userApkTextarea.value) {
+    userApkTextarea.classList.remove('hide');
+  } else {
+    userApkTextarea.classList.add('hide');
+  }
 }
 
 /**
@@ -93,7 +104,16 @@ var getApkJson = function() {
   request.send();
 };
 
+/**
+ * Format manually entered Apks list into array of user
+ */
+var formatUserApkTextarea = function() {
+  manuallyEnteredApks = this.value.split(/\W/).filter(function(x) { return x; });
+  this.value = manuallyEnteredApks.join("\n");
+};
+
 filterList.querySelector('input[name="expertMode"]').onchange = renderApkList;
+userApkTextarea.onblur = formatUserApkTextarea;
 
 // Start reticulating splines
 getApkJson();

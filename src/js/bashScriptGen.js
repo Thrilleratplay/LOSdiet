@@ -77,12 +77,13 @@ var itsGoTime = function () {
   // Load zip
   JSZip.loadAsync(zipData).then(function (zip) {
     // Create BASH script, add to the zip
-    zip.file(SCRIPT_FILENAME, _generateBashScript(apks))
+    zip.file(SCRIPT_FILENAME, _generateBashScript(apks.concat(manuallyEnteredApks)))
        .generateAsync(SCRIPT_FILE_OPTIONS)
        .then(function (blob) {
          // Save zip file
          saveAs(blob, ZIP_FILENAME);
-         localStorage.setItem('LOSdiet_apks', apks);
+         localStorage.setItem('LOSdiet.apks', JSON.stringify(apks));
+         localStorage.setItem('LOSdiet.user_added_apks', JSON.stringify(manuallyEnteredApks));
        });
     });
   }
